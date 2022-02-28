@@ -480,10 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 0;
 }
 
-.static {
-  position: static;
-}
-
 .absolute {
   position: absolute;
 }
@@ -497,10 +493,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
-
-.m-6 {
-  margin: 1.5rem;
 }
 
 .mx-auto {
@@ -539,10 +531,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .block {
   display: block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -814,10 +802,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
 }
 
 .tracking-tight {
@@ -1327,9 +1311,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0;
 }
 
-.prose-indigo {
-  --tw-prose-links: #4f46e5;
-  --tw-prose-invert-links: #6366f1;
+.prose-green {
+  --tw-prose-links: #16a34a;
+  --tw-prose-invert-links: #22c55e;
 }
 
 .hover\:border-transparent:hover {
