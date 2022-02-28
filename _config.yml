@@ -11,8 +11,8 @@ theme-color: green # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Henri Aïdasso
-author-bio: false  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
+author-bio: true  # change to false to hide
+author-image: profile.jpeg  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
@@ -24,21 +24,21 @@ nav-menu:
   permalink: blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
-medium: false
+twitter: false
+facebook: false
+instagram: https://instagram.com/ahenrij
+github: https://github.com/ahenrij
+linkedin: https://linkedin.com/in/ahenrij
+medium: https://medium.com/@ahenrij
 google-scholar: false
-email: false
+email: ahenrij@gmail.com
 
 # footer information
 footer-msg: "Powered by Tailpages"
 footer-msg-link: https://github.com/ahenrij/tailpages
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+google-analytics: false
 
 # jekyll plugins - no need to change
 plugins:
