@@ -6,7 +6,7 @@ permalink: about
 
 <div style="text-align: justify">
 <p>
-Henri Aïdasso is a Data Scientist with two years of experience. He has been working lately at <a class="text-black" href="https://energiency.com" target="_blank">Energiency</a> using Artificial Intelligence to reduce energy consumptions in industries 4.0: timeseries forecast and systems simulation to find potential of energy savings.
+Henri Aïdasso is a young Data Scientist with two years of experience. He has been working lately at <a class="text-black" href="https://energiency.com" target="_blank">Energiency</a> using Artificial Intelligence to reduce energy consumptions in industries 4.0: timeseries forecast and systems simulation to find potential of energy savings.
 </p>
 
 <p>
