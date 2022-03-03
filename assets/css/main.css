@@ -4,6 +4,6 @@
 
 @layer components {
     .badge {
-        @apply bg-green-500 text-white rounded px-3 py-1;
+        @apply bg-black text-white rounded px-3 py-2 mt-2;
     }
 }
