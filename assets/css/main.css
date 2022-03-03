@@ -6,4 +6,21 @@
     .badge {
         @apply bg-black text-white rounded px-3 py-2 mt-2;
     }
+
+    .mobile-menu-item {
+        @apply block py-2 px-4 text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase;
+    }
+
+    .menu-item {
+        @apply text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase;
+    }
+
+    #menu ~ #menu-dropdown {
+        @apply transform;
+        @apply ease-in duration-75 opacity-0 scale-0;
+    }
+
+    #menu ~ #menu-dropdown:focus-within, #menu:focus ~ #menu-dropdown {
+        @apply ease-out duration-100 opacity-100 scale-100;
+    }
 }

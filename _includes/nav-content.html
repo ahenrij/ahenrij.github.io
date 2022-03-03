@@ -1,0 +1,14 @@
+
+{% if page.url != "/" %} <!-- don't show Home in menu for Homepage -->
+<a class="mobile-menu-item !md:menu-item"
+href="{{site.baseurl}}/">Home</a>
+{% endif %}
+<!-- dynamic menu based on navigation info in _config.yml -->
+{% for link in site.nav-menu %}
+    {% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
+    <a class="mobile-menu-item !md:menu-item"
+    href="{{site.baseurl}}/{{link.permalink}}">
+    {{link.text}}
+    </a>
+    {% endif %}
+{% endfor %}

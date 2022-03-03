@@ -468,18 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .absolute {
   position: absolute;
 }
@@ -515,6 +503,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .mr-auto {
@@ -605,6 +601,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -621,6 +621,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-prose {
   max-width: 65ch;
+}
+
+.origin-top-left {
+  transform-origin: top left;
 }
 
 .flex-col {
@@ -659,6 +663,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-t {
@@ -727,9 +735,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .px-2\.5 {
@@ -752,9 +760,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0px !important;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pt-4 {
@@ -910,6 +918,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -1377,17 +1401,49 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-prose-invert-td-borders: #44403c;
 }
 
-.badge {
-  margin-top: 0.5rem;
-  border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.mobile-menu-item {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.mobile-menu-item:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu-item {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+#menu ~ #menu-dropdown {
+  --tw-scale-x: 0;
+  --tw-scale-y: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0;
+  transition-duration: 75ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+#menu ~ #menu-dropdown:focus-within, #menu:focus ~ #menu-dropdown {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 1;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .hover\:border-transparent:hover {
@@ -1404,14 +1460,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.focus\:border-white:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .focus\:outline-none:focus {
