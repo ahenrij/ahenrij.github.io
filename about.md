@@ -25,10 +25,9 @@ Prior to that, he worked for a year as a freelance software engineer after gradu
 </p>
 
 <h2>Curriculum Vitae</h2>
-<iframe src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/CV.pdf"
-		width="100%"
-		height="780px"
-		style="border: none;"
-/>
-
+<iframe 
+	src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/CV.pdf"
+	width="100%"
+	height="780px"
+	style="border: none;"></iframe>
 </div>
