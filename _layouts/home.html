@@ -13,13 +13,41 @@ layout: default
   </div>
   {% if site.author-bio %}
   <p class="text-gray-500 pb-4">
-
-    Henri is a passionate <span class="">Data Scientist</span> and have been lately applying Machine Learning algorithms to timeseries forecast and systems simulation. 
-
+    Henri is currently a Data Scientist and has recently been applying Machine Learning algorithms to Time-Series forecast and systems simulation. 
   </p>
+  <p class="text-xl pb-4">I'm a <span id="typing"></span></p>
+
   {% endif %}
 </div>
 </div>
+
+<script type="text/javascript">
+  (function(){
+    type();
+  })();
+
+  function type() {
+    var typing = document.getElementById('typing');
+    const PAUSE = 2000; // 2s
+
+    var typewriter = new Typewriter(typing, {
+      loop: true,
+      delay: 75,
+    });
+
+    typewriter
+      .typeString('Data Scientist')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .typeString('Software Engineer')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .typeString('Machine Learning Engineer')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .start();
+  }
+</script>
 
 {% include social-media.html %}
 {% include footer.html %}
