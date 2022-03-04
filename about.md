@@ -31,7 +31,7 @@ Prior to that, he worked for a year as a freelance software engineer after gradu
 	height="300px"
 	style="border: none;"></iframe>
 
-<h2>Projects</h2>
+<h2>Some projects</h2>
 <div>
   {% for project in site.projects %}
     <div>
