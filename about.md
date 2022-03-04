@@ -41,7 +41,7 @@ Prior to that, he worked for a year as a freelance software engineer after gradu
   {% endfor %}
 </div>
 
-<h2>Academic projects</h2>
+<h2>Some academic projects</h2>
 <div>
   {% for project in site.academics %}
     <div>
