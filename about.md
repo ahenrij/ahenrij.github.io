@@ -24,13 +24,22 @@ Prior to that, he worked for a year as a freelance software engineer after gradu
 </p>
 
 <h2>Curriculum Vitae</h2>
-	<p><a href="{{site.baseurl}}/assets/raw/CV.pdf" target="_blank">Download (2022-03)</a></p>
+	<p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" target="_blank">Download (2022-03)</a></p>
 	<iframe 
-	src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/CV.pdf"
+	src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf"
 	width="100%"
 	height="300px"
 	style="border: none;"></iframe>
 
+<h2>Projects</h2>
+<div>
+  {% for project in site.projects %}
+    <div>
+		<h4><a class="!mb-0" href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
+		<p class="text-md text-gray-400 !mt-0">{{ project.description }}</p>
+    </div>
+  {% endfor %}
+</div>
 
 <h2>Academic projects</h2>
 <div>
