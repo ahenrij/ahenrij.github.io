@@ -43,3 +43,8 @@ google-analytics: false
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
+# collections
+collections_dir: collections
+collections:
+  - academics
