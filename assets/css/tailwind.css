@@ -541,6 +541,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -798,6 +806,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .\!pt-0 {
   padding-top: 0px !important;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.\!pt-10 {
+  padding-top: 2.5rem !important;
+}
+
+.\!pt-12 {
+  padding-top: 3rem !important;
+}
+
+.\!pt-8 {
+  padding-top: 2rem !important;
 }
 
 .text-center {
@@ -1548,6 +1576,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1566,6 +1610,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:place-items-center {
     place-items: center;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 }
 
