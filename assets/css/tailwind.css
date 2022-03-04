@@ -521,8 +521,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
-.\!mt-0 {
-  margin-top: 0px !important;
+.mt-0 {
+  margin-top: 0px;
 }
 
 .mt-6 {
@@ -533,20 +533,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px !important;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
+.\!mt-0 {
+  margin-top: 0px !important;
 }
 
 .block {
@@ -784,48 +772,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.\!pb-0 {
-  padding-bottom: 0px !important;
-}
-
-.\!pt-0 {
-  padding-top: 0px !important;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.\!pt-10 {
-  padding-top: 2.5rem !important;
-}
-
-.\!pt-12 {
-  padding-top: 3rem !important;
-}
-
-.\!pt-8 {
-  padding-top: 2rem !important;
 }
 
 .text-center {
@@ -1576,18 +1524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .md\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .md\:mt-7 {
-    margin-top: 1.75rem;
-  }
-
   .md\:mt-8 {
     margin-top: 2rem;
   }
