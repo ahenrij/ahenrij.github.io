@@ -24,7 +24,7 @@ Prior to that, he worked for a year as a freelance software engineer after gradu
 </p>
 
 <h2>Curriculum Vitae</h2>
-	<a href="{{site.baseurl}}/assets/raw/CV.pdf" target="_blank">Download (2022-03)</a>
+	<p><a href="{{site.baseurl}}/assets/raw/CV.pdf" target="_blank">Download (2022-03)</a></p>
 	<iframe 
 	src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/CV.pdf"
 	width="100%"
