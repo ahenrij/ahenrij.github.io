@@ -1,6 +1,6 @@
 # change the followings to match your Github username and repo name
 baseurl: "" # the name of your github repo
-url: "https://ahenrij.github.io" # the url of your github pages
+url: "https://henriaidasso.me" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Henri Aïdasso"
@@ -43,6 +43,7 @@ google-analytics: G-Q7Q1DLKRB4
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap
 
 # collections
 collections_dir: collections
