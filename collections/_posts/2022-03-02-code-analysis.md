@@ -23,6 +23,6 @@ def pairs():
    print("done!") # IndentationError
 ```
 
-
 Python has known huge evolution over past years and the latest released version 3.10 comes with major improvement regarding debugging (clearer messages), and better typing 
 
+...to be continued
