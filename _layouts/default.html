@@ -45,9 +45,20 @@
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
   <script type="text/javacsript" src="{{site.baseurl}}/assets/js/script.js"></script>
+  <script>
+    (function() {
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+      console.log('ready...')
+    })();
+  </script>
  </head>
 
-<body class="font-sans mx-auto max-w-prose">
+<body class="font-sans mx-auto max-w-prose dark:bg-black">
   <div class="pt-10 md:pt-12 pb-4">
     {{ content }}
   </div>

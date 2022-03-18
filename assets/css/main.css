@@ -23,4 +23,8 @@
     #menu ~ #menu-dropdown:focus-within, #menu:focus ~ #menu-dropdown {
         @apply ease-out duration-100 opacity-100 scale-100;
     }
+
+    .dark .dark\:block {
+        display: block !important;
+    }
 }
