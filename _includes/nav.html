@@ -1,6 +1,6 @@
 <nav class="flex flex-wrap items-center justify-center px-2 mb-1 md:mb-6">
     <div class="container px-4 mx-auto flex flex-wrap">
-        <button class="md:hidden flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out"
+        <button class="md:hidden flex text-sm border-2 border-transparent rounded-full dark:text-white focus:outline-none focus:border-white transition duration-150 ease-in-out"
         id="menu" aria-label="Menu" aria-haspopup="true">
             <!-- Heroicon name: outline/menu -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -9,7 +9,7 @@
             </svg>
         </button>
         <div id="menu-dropdown" class="menu-hidden !md:visible origin-top-left absolute mt-2 ml-5 w-48 rounded-md shadow-lg">
-            <div class="py-1 rounded-md bg-white  shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="menu">
+            <div class="py-1 rounded-md bg-white dark:bg-gray-800 shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="menu">
                 {% include nav-content.html %}
             </div>
         </div>
