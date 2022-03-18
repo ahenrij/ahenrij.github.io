@@ -17,6 +17,10 @@
         @apply dark:hover:text-white;
     }
 
+    .dark-social-btn {
+        @apply dark:bg-slate-500 dark:text-white dark:shadow-slate-600;
+    }
+
     #menu ~ #menu-dropdown {
         @apply transform;
         @apply ease-in duration-75 opacity-0 scale-0;
