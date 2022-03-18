@@ -1399,6 +1399,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-prose-invert-td-borders: #44403c;
 }
 
+a {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.dark a {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.dark a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
 .mobile-menu-item {
   margin-left: auto;
   margin-right: auto;
@@ -1424,6 +1439,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
   }
+}
+
+.dark .mobile-menu-item {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .dark .mobile-menu-item:hover {
@@ -1475,16 +1495,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .dark .dark\:block {
   display: block !important;
-}
-
-a {
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-
-.dark a {
-  --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
 .dark strong {
@@ -1579,19 +1589,14 @@ strong.dark {
   color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-slate-400 {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:text-white:hover {
