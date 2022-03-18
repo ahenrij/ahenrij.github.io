@@ -8,7 +8,7 @@ permalink: about
 
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/profile.jpeg">
 <p class="!py-0 !mb-0 dark:text-slate-400 text-center">I'm a nature lover.</p>
-<p class="!text-gray-500 !py-0 !mt-0 !text-xs text-center">A view of the forest at Saint-Gravé, Brittany, France.</p>
+<p class="text-gray-500 dark:text-slate-500 !py-0 !mt-0 !text-xs text-center">A view of the forest at Saint-Gravé, Brittany, France.</p>
 
 <h2 class="dark:text-slate-200" style="margin-top: 24px">Summary</h2>
 <p class="dark:text-slate-300">
