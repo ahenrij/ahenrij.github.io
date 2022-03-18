@@ -1595,6 +1595,11 @@ strong.dark {
   background-color: transparent;
 }
 
+.dark .dark\:bg-stone-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
