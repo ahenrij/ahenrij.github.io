@@ -13,8 +13,9 @@ layout: default
   </div>
   {% if site.author-bio %}
   <p class="text-gray-500 dark:text-slate-300 pb-4">
-    Henri is a passionate Data Scientist and has recently been applying Machine Learning algorithms to Time-Series forecast and systems simulation at 
-    <a class="text-gray-500 dark:text-slate-300 !no-underline" href="https://energiency.com">Energiency</a>. 
+    Henri is passionate about crafting real-world solutions using technology.
+    Currently Ph.D. Student at ÉTS Montréal, his work in the Computer Systems Architecture Laboratory, focuses on  using statistical analysis methods and Machine Learning
+    to help industrial managers improve their DevOps processes. 
   </p>
   <p class="text-xl pb-4 dark:text-slate-200">I'm a <span id="typing"></span></p>
 
@@ -29,7 +30,7 @@ layout: default
 
   function type() {
     var typing = document.getElementById('typing');
-    const PAUSE = 2000; // 2s
+    const PAUSE = 1500; // 2s
 
     var typewriter = new Typewriter(typing, {
       loop: true,
@@ -37,6 +38,9 @@ layout: default
     });
 
     typewriter
+      .typeString('Researcher')
+      .pauseFor(PAUSE)
+      .deleteAll()
       .typeString('Data Scientist')
       .pauseFor(PAUSE)
       .deleteAll()
