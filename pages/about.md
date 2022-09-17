@@ -6,7 +6,7 @@ permalink: about
 
 <div style="text-align: justify">
 
-<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/profile.jpeg">
+<img class="mx-auto" src="{{site.baseurl}}/assets/img/nature.jpg">
 <p class="!py-0 !mb-0 dark:text-stone-300 text-center">I'm a nature lover.</p>
 <p class="text-gray-500 dark:text-stone-400 !py-0 !mt-0 !text-xs text-center">A view of the forest at Saint-Gravé, Brittany, France.</p>
 

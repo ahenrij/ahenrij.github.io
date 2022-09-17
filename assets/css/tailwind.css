@@ -589,6 +589,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 9rem;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -631,6 +635,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-36 {
   width: 9rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .max-w-max {
@@ -886,34 +902,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.text-stone-400 {
-  --tw-text-opacity: 1;
-  color: rgb(168 162 158 / var(--tw-text-opacity));
-}
-
-.text-stone-100 {
-  --tw-text-opacity: 1;
-  color: rgb(245 245 244 / var(--tw-text-opacity));
-}
-
 .text-stone-300 {
   --tw-text-opacity: 1;
   color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 
-.text-stone-200 {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(231 229 228 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .\!no-underline {
@@ -1421,17 +1417,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
+  color: rgb(87 83 78 / var(--tw-text-opacity));
 }
 
 .dark a {
   --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
+  color: rgb(245 245 244 / var(--tw-text-opacity));
 }
 
 .dark a:hover {
   --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
+  color: rgb(245 245 244 / var(--tw-text-opacity));
 }
 
 .mobile-menu-item {
@@ -1463,7 +1459,7 @@ a {
 
 .dark .mobile-menu-item {
   --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
+  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 
 .dark .mobile-menu-item:hover {
@@ -1637,29 +1633,14 @@ strong.dark {
   color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-slate-400 {
+.dark .dark\:text-stone-300 {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-slate-500 {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
+  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-stone-200 {
   --tw-text-opacity: 1;
   color: rgb(231 229 228 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-stone-300 {
-  --tw-text-opacity: 1;
-  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:text-white:hover {
