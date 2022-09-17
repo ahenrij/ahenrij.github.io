@@ -42,7 +42,7 @@ Prior to that, he worked during a year as a freelance software engineer after gr
   {% for project in site.projects %}
     <div>
 		<h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-		<p class="text-md text-stone-300 !mt-0">{{ project.description }}</p>
+		<p class="text-md text-stone-400 dark:text-stone-300 !mt-0">{{ project.description }}</p>
     </div>
   {% endfor %}
 </div>
@@ -52,7 +52,7 @@ Prior to that, he worked during a year as a freelance software engineer after gr
   {% for project in site.academics %}
     <div>
 		<h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-		<p class="text-md text-stone-300 !mt-0">{{ project.description }}</p>
+		<p class="text-md text-stone-400 dark:text-stone-300 !mt-0">{{ project.description }}</p>
     </div>
   {% endfor %}
 </div>
