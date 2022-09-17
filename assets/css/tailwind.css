@@ -545,6 +545,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0px !important;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.\!mb-5 {
+  margin-bottom: 1.25rem !important;
+}
+
+.\!mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.\!mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -802,6 +826,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .text-center {

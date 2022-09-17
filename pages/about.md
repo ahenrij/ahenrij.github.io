@@ -6,21 +6,27 @@ permalink: about
 
 <div style="text-align: justify">
 
-<img class="mx-auto" src="{{site.baseurl}}/assets/img/nature.jpg">
-<p class="!py-0 !mb-0 dark:text-stone-300 text-center">I'm a nature lover.</p>
-<p class="text-gray-500 dark:text-stone-400 !py-0 !mt-0 !text-xs text-center">A view of the forest at Saint-Gravé, Brittany, France.</p>
+<img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/nature.jpg">
+<p class="!py-0 !mb-0 dark:text-stone-300">I'm a nature lover.</p>
+<p class="text-gray-500 dark:text-stone-400 !py-0 !mt-0 !text-xs">A view of the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
 
-<h2 class="dark:text-stone-200" style="margin-top: 24px">Summary</h2>
+<h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-Henri Aïdasso is a Data Scientist with two years of experience. He is currently working at Energiency using Artificial Intelligence to reduce energy consumptions in industries 4.0: timeseries forecast and systems simulation to find potential of energy savings. He has also developed several company-specific data science projects and packages within the team, including the new prediction backend for artificial intelligence models. <br>
-He has a Software Engineer background, with six years of experience and has developed his skills around fullstack web/android development, DevOps practices, and cloud-based applications. He has advanced knowledge of design patterns, architecture patterns and databases.
+Henri Aïdasso is a Ph.D. Student, working as part of the <a class="text-gray-500 dark:text-stone-300 !no-underline" href="https://www.etsmtl.ca/laboratoires/lasi" target="_blank">Computer Systems Architecture Laboratory</a> at ÉTS Montréal. He is exploring in his researches, new ways to improve DevOps processes by taking leverage of data collected from industrials partners' pipelines, and statistical analysis and machine learning methods. His work is in the context of the <a class="text-gray-500 dark:text-stone-300 !no-underline" href="https://www.etsmtl.ca/en/news/2021/chaire-kaloom-telus-ets" target="_blank">Kaloom-TELUS Industrial Research Chair</a>, and is conducted under the supervision of Pr Francis Bordeleau.
+
+<br>
+Prior to that, he worked at <a class="text-gray-500 dark:text-stone-300 !no-underline" href="https://www.energiency.com/" target="_blank">Energiency</a> using Artificial Intelligence to improve energy performance in industries 4.0: timeseries forecast, golden batch analysis, and digital twins modeling. He has also developed several company-specific data science projects and packages within the team, including their latest cloud-based applications stack for serving AI models. <br>
+He is a Software Engineer with seven years of experience and has developed his skills around fullstack web and android development, DevOps practices, and cloud-based applications. He has advanced knowledge of design patterns, architecture patterns and databases.
 </p>
 
 <h2 class="dark:text-stone-200">Formation</h2>
 <p class="dark:text-stone-300">
-Henri will finish his Master of Science's degree in Big Data: Business Intelligence and Machine Learning in 2022 from the University of Rennes 1 in France, which he is pursuing as a work-study at Energiency.
-In 2020, he graduated with a bachelor's degree in computer science from the University of Rennes 1 and finished valedictorian out of 87 students in his class. <br>
-Prior to that, he worked for a year as a freelance software engineer after graduating in 2017 with a bachelor's degree in computer science applied to management from the University of Abomey-Calavi in Benin, where he was a government scholar and finished valedictorian out of 32 students.
+Since fall 2022, Henri is a doctoral student in Computer Engineering at ÉTS Montréal, University of Québec in Canada.
+Just before that, he graduated top of his class with a Master of Science in Big Data: Business Intelligence and Machine Learning in 2022 from the University of Rennes 1 in France, which he completed as a work-study program at Energiency.
+In 2020, he earned a Bachelor of Science in Computer Science from the University of Rennes 1 and graduated as valedictorian of his class,
+one year after leaving Benin for France. <br>
+
+Prior to that, he worked during a year as a freelance software engineer after graduating in 2017 with a bachelor's degree in Computer Science applied to Management from the University of Abomey-Calavi in Benin. He was a government scholar holder, finished valedictorian of his class, and received the trophy of excellence awarded to the best student in computer science applied to management.
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
