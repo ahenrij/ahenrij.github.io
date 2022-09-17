@@ -945,6 +945,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(168 162 158 / var(--tw-text-opacity));
 }
 
+.text-stone-200 {
+  --tw-text-opacity: 1;
+  color: rgb(231 229 228 / var(--tw-text-opacity));
+}
+
+.text-stone-100 {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 244 / var(--tw-text-opacity));
+}
+
 .\!no-underline {
   -webkit-text-decoration-line: none !important;
           text-decoration-line: none !important;
