@@ -11,13 +11,13 @@ layout: default
     {% if page.tags.size !=0 %}
       <i class="text-xs fas fa-tags"></i>
     {% for tag in page.tags %}
-      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-200 text-slate-800">
         <a class="!no-underline dark:text-slate-600 dark:hover:text-slate-800" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
       </div>
     {% endfor %}
     {% endif %}
   </div>
-  <div class="dark:text-slate-300">
+  <div class="dark:text-stone-300">
     {{content}}
   </div>
 </div>
