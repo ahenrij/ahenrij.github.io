@@ -7,8 +7,8 @@ permalink: about
 <div style="text-align: justify">
 
 <img class="mx-auto !mb-0" src="{{site.baseurl}}/assets/img/nature.jpg">
-<p class="!py-0 !mb-0 dark:text-stone-300">I'm a nature lover.</p>
-<p class="text-gray-500 dark:text-stone-400 !py-0 !mt-0 !text-xs">A view of the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
+<p class="!py-0 !mb-0 dark:text-slate-300">I'm a nature lover.</p>
+<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A view of the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
@@ -30,19 +30,19 @@ Prior to that, he worked during a year as a freelance software engineer after gr
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
-	<p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-03)</a></p>
-	<iframe 
-	src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf"
-	width="100%"
-	height="300px"
-	style="border: none;"></iframe>
+ <p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-03)</a></p>
+ <iframe
+ src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf"
+ width="100%"
+ height="300px"
+ style="border: none;"></iframe>
 
 <h2 class="dark:text-stone-200">Some projects</h2>
 <div>
   {% for project in site.projects %}
     <div>
-		<h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-		<p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
+  <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
+  <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
     </div>
   {% endfor %}
 </div>
@@ -51,8 +51,8 @@ Prior to that, he worked during a year as a freelance software engineer after gr
 <div>
   {% for project in site.academics %}
     <div>
-		<h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-		<p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
+  <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
+  <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
     </div>
   {% endfor %}
 </div>
