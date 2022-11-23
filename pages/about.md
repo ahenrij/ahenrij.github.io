@@ -30,9 +30,9 @@ Prior to that, he worked during a year as a freelance software engineer after gr
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-03)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-09)</a></p>
  <iframe
- src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf"
+ src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202209_CV_Henri_Aidasso__en_.pdf"
  width="100%"
  height="300px"
  style="border: none;"></iframe>
