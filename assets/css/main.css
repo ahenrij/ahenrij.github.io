@@ -23,7 +23,7 @@
     }
 
     .dark-social-btn {
-        @apply dark:bg-stone-500 dark:text-white dark:shadow-stone-600 dark:shadow-sm;
+        @apply dark:bg-slate-600 dark:text-white dark:shadow-slate-600 dark:shadow-sm;
         @apply hover:bg-green-600 hover:text-white transition-colors duration-300;
     }
 
