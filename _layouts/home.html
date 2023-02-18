@@ -7,18 +7,18 @@ layout: default
 
 <div class="mx-auto text-center prose prose-{{site.theme-color}}">
   <div>
-    <img class="object-cover mx-auto h-36 w-36 mt-0 md:mt-8 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
+    <img class="object-cover mx-auto h-48 w-48 mt-0 md:mt-8 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
       alt="author profile image">
     <h1 class="dark:text-white">{{site.author}}</h1>
   </div>
   {% if site.author-bio %}
   
-  <p class="mx-5 md:mx-auto text-lg xl:!text-2xl lg:py-3 dark:text-white"><span id="typing"></span></p>
+  <p style="font-family: 'Courier New', Courier, monospace; font-weight: 600;" class="mx-5 md:mx-auto text-lg xl:!text-2xl lg:py-3 dark:text-white"><span id="typing"></span></p>
   
-  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-lg xl:text-xl">
-    Henri is passionate about crafting real-world solutions using technology.
-    Currently Ph.D. Student at ÉTS Montréal, his work in the Computer Systems Architecture Laboratory focuses on using statistical analysis and Machine Learning methods
-    to help industry partners improve their DevOps processes. He is working on a wide range of topics related to Intelligent DevOps such as anomaly detection and failure diagnosis. Read <a class="!text-gray-500 dark:!text-stone-200" href="/about">more</a> about me.
+  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
+    Hello! I'm Henri, a truly passionate about crafting solutions using technology to solve real-world problems.
+    Currently Ph.D. Researcher at ÉTS Montréal (University of Québec), my work in the Computer Systems Architecture Laboratory focuses on using Machine Learning methods
+    to help industry partners improve their software delivery processes. I am working on topics related to Intelligent DevOps such as anomaly detection and failure diagnosis. Read <a class="!text-gray-500 dark:!text-stone-200" href="/about">more</a> about me.
   </p>
 
   {% endif %}
@@ -36,20 +36,20 @@ layout: default
 
     var typewriter = new Typewriter(typing, {
       loop: true,
-      delay: 75,
+      delay: 100,
     });
 
     typewriter
-      .typeString('Researcher')
+      .typeString('Research Scientist')
       .pauseFor(PAUSE)
       .deleteAll()
       .typeString('Data Scientist')
       .pauseFor(PAUSE)
       .deleteAll()
-      .typeString('Software Engineer')
+      .typeString('Machine Learning Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
-      .typeString('Machine Learning Engineer')
+      .typeString('Software Engineer')
       .pauseFor(PAUSE)
       .deleteAll()
       .start();
