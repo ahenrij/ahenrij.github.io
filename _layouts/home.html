@@ -9,16 +9,18 @@ layout: default
   <div>
     <img class="object-cover mx-auto h-48 w-48 mt-0 md:mt-8 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
       alt="author profile image">
-    <h1 class="dark:text-white">{{site.author}}</h1>
+    <h1 class="dark:text-white font-semibold profession">{{site.author}}</h1>
   </div>
   {% if site.author-bio %}
   
-  <p style="font-family: 'Courier New', Courier, monospace; font-weight: 600;" class="mx-5 md:mx-auto text-lg xl:!text-2xl lg:py-3 dark:text-white"><span id="typing"></span></p>
+  <p class="profession mx-5 md:mx-auto text-lg xl:!text-2xl lg:py-3 dark:text-white"><span id="typing"></span></p>
   
-  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 lg:text-md xl:text-xl">
-    Hello! I'm Henri, a truly passionate about crafting solutions using technology to solve real-world problems.
-    Currently Ph.D. Researcher at ÉTS Montréal (University of Québec), my work in the Computer Systems Architecture Laboratory focuses on using Machine Learning methods
-    to help industry partners improve their software delivery processes. I am working on topics related to Intelligent DevOps such as anomaly detection and failure diagnosis. Read <a class="!text-gray-500 dark:!text-stone-200" href="/about">more</a> about me.
+  <p class="text-gray-500 dark:text-stone-100 mx-5 md:mx-auto pb-4 text-sm lg:text-md xl:text-lg">
+    Hi there! I'm Henri, passionate about crafting innovative solutions to real-world challenges using technology.
+    Currently Ph.D. Researcher at <a href="" target="_blank">École de technologie supérieure</a> (Université du Québec), my work focuses on using data analytics and Machine Learning methods
+    to help industry partners improve their software delivery processes. I am working on topics related to Intelligent DevOps such as anomaly detection, failure diagnosis, and automated repair. 
+    <br>
+    Read <a class="" href="/about">more</a> about me.
   </p>
 
   {% endif %}
@@ -32,11 +34,11 @@ layout: default
 
   function type() {
     var typing = document.getElementById('typing');
-    const PAUSE = 1500; // 2s
+    const PAUSE = 2000; // 2s
 
     var typewriter = new Typewriter(typing, {
       loop: true,
-      delay: 100,
+      delay: 200,
     });
 
     typewriter

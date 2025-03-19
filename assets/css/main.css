@@ -1,50 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400&family=Special+Elite&display=swap');
+
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
 
 @layer components {
+  a {
+    @apply text-stone-600 dark:text-stone-100 dark:hover:text-stone-100;
+  }
 
-    a {
-        @apply text-stone-600 dark:text-stone-100 dark:hover:text-stone-100;
-    }
+  .badge {
+    @apply bg-black text-white rounded px-3 py-2 mt-2;
+  }
 
-    .badge {
-        @apply bg-black text-white rounded px-3 py-2 mt-2;
-    }
+  .mobile-menu-item {
+    @apply block text-sm text-gray-500 hover:text-gray-900 px-4 py-2 lg:py-1 mx-auto uppercase;
+    @apply dark:text-slate-200 dark:hover:text-white;
+  }
 
-    .mobile-menu-item {
-        @apply block text-sm text-gray-500 hover:text-gray-900 px-4 py-2 lg:py-1 mx-auto uppercase;
-        @apply dark:text-slate-200 dark:hover:text-white;
-    }
+  .menu-item {
+    @apply text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase;
+    @apply dark:text-slate-200 dark:hover:text-white;
+  }
 
-    .menu-item {
-        @apply text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase;
-        @apply dark:text-slate-200 dark:hover:text-white;
-    }
+  .dark-social-btn {
+    @apply dark:bg-slate-600 dark:text-white dark:shadow-slate-600 dark:shadow-sm;
+    @apply hover:bg-green-600 hover:text-white transition-colors duration-300;
+  }
 
-    .dark-social-btn {
-        @apply dark:bg-slate-600 dark:text-white dark:shadow-slate-600 dark:shadow-sm;
-        @apply hover:bg-green-600 hover:text-white transition-colors duration-300;
-    }
+  #menu ~ #menu-dropdown {
+    @apply transform;
+    @apply ease-in duration-75 opacity-0 scale-0;
+  }
 
-    #menu ~ #menu-dropdown {
-        @apply transform;
-        @apply ease-in duration-75 opacity-0 scale-0;
-    }
+  #menu ~ #menu-dropdown:focus-within,
+  #menu:focus ~ #menu-dropdown {
+    @apply ease-out duration-100 opacity-100 scale-100;
+  }
 
-    #menu ~ #menu-dropdown:focus-within, #menu:focus ~ #menu-dropdown {
-        @apply ease-out duration-100 opacity-100 scale-100;
-    }
+  .dark .dark\:block {
+    display: block !important;
+  }
 
-    .dark .dark\:block {
-        display: block !important;
-    }
+  strong {
+    @apply dark:text-slate-200;
+  }
 
-    strong {
-        @apply dark:text-slate-200;
-    }
+  strong.dark {
+    @apply !text-slate-200;
+  }
 
-    strong.dark {
-        @apply !text-slate-200;
-    }
+  .profession {
+  }
 }
