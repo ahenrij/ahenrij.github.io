@@ -4,7 +4,7 @@ url: "https://henriaidasso.me" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Henri Aïdasso"
-description: Data Scientist | Software Engineer
+description: Research Scientist | Software Engineer
 
 # color theme for links
 theme-color: stone # indigo|yellow|pink|green|stone|
@@ -26,11 +26,11 @@ nav-menu:
 # use false to turn off any social media links
 twitter: false
 facebook: false
-instagram: https://instagram.com/ahenrij
+instagram: false
 github: https://github.com/ahenrij
 linkedin: https://linkedin.com/in/ahenrij
-medium: https://medium.com/@ahenrij
-google-scholar: false
+medium: false
+google-scholar: https://scholar.google.ca/citations?user=JYWwzYgAAAAJ&hl=en
 email: ahenrij@gmail.com
 
 # footer information

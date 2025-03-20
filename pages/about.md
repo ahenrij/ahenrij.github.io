@@ -4,18 +4,18 @@ title: About Me
 permalink: about
 ---
 
-<div style="text-align: justify">
+<div style="text-align: justify" class="custom-font">
 
 <img class="mx-auto !mb-0 h-56" src="{{site.baseurl}}/assets/img/nature.jpg">
 <p class="!py-0 !mb-0 dark:text-slate-300">I'm a nature lover.</p>
-<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A view of the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
+<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A view at the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-Henri Aïdasso is a Ph.D. Student at École de technologie supérieure, working in the Kaloom-TELUS Industrial Research Chair in DevOps. As part of his research works, he is exploring new ways to improve DevOps processes leveraging data analytics and Artificial Intelligence: Intelligent DevOps. His work is under the supervision of Pr Francis Bordeleau.
+Henri Aïdasso is a Computer Engineering Ph.D. Student at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a>, working in the Kaloom-TELUS Industrial Research Chair in DevOps. As part of his research works, he is exploring new ways to improve DevOps processes leveraging data analytics and Artificial Intelligence: Intelligent DevOps. His work is under the supervision of Pr Francis Bordeleau.
 
 <br>
-Prior to that, he worked at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> using Artificial Intelligence to improve energy performance in industries 4.0: timeseries forecast, golden batch analysis, and digital twins modeling. He has also developed several company-specific data science projects and packages within the team, including their latest cloud-based applications stack for serving AI models. <br>
+Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> using Artificial Intelligence to improve energy performance in industries 4.0: timeseries forecast, golden batch analysis, and digital twins modeling. He has also developed several company-specific data science projects and packages within the team, including their latest cloud-based applications stack for serving AI models. <br>
 He is a Software Engineer with seven years of experience and has developed his skills around fullstack web and android development, DevOps practices, and cloud-based applications. He has advanced knowledge of design patterns, architecture patterns and databases.
 </p>
 
