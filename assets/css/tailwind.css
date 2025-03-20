@@ -600,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 12rem;
 }
 
+.h-56{
+  height: 14rem;
+}
+
 .min-h-full{
   min-height: 100%;
 }
@@ -886,11 +890,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .\!text-gray-300{
   --tw-text-opacity: 1 !important;
   color: rgb(209 213 219 / var(--tw-text-opacity)) !important;
-}
-
-.\!text-gray-500{
-  --tw-text-opacity: 1 !important;
-  color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
 }
 
 .text-slate-800{
@@ -1532,7 +1531,8 @@ strong.dark{
   color: rgb(226 232 240 / var(--tw-text-opacity)) !important;
 }
 
-.profession {
+.custom-font {
+  font-family: "Special Elite"
 }
 
 .hover\:border-transparent:hover{
@@ -1625,11 +1625,6 @@ strong.dark{
 .dark .dark\:text-stone-100{
   --tw-text-opacity: 1;
   color: rgb(245 245 244 / var(--tw-text-opacity));
-}
-
-.dark .dark\:\!text-stone-200{
-  --tw-text-opacity: 1 !important;
-  color: rgb(231 229 228 / var(--tw-text-opacity)) !important;
 }
 
 .dark .dark\:text-slate-100{
