@@ -895,6 +895,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem !important;
 }
 
+.\!text-lg{
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+
 .font-extrabold{
   font-weight: 800;
 }
