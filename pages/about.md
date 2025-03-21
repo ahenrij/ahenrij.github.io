@@ -22,7 +22,7 @@ Before Energiency, Henri was a Software Engineer with 7+ years of experience acr
 <h2 class="dark:text-stone-200">Formation</h2>
 <p class="dark:text-stone-300">
 Henri is currently a Ph.D. Student in Computer Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> in Canada.
-He hold (graduating top of his class in 2022) a <span class="">Master of Science in Big Data: Business Intelligence and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes</a> in France.
+He hold (graduating top of his class in 2022) a <span class="">Master of Science in Big Data: Business Intelligence and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes 1</a> in France.
 In 2020, he earned a Bachelor of Science in Computer Science from the University of Rennes 1, also graduating as valedictorian.
 
 Prior to that, he graduated top his class in 2017 with a Bachelor of Science in Computer Science applied to Management from the <a href="https://uac.bj/" target="_blank">University of Abomey-Calavi</a> in Benin. He was a government scholar holder, and received the trophy of excellence awarded to the best student in computer science applied to management.
