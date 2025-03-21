@@ -16,16 +16,16 @@ Henri J. Aïdasso is an Engineering Ph.D. Student at <a href="https://etsmtl.ca"
 
 Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> in France, using AI to reduce energy consumption in industry 4.0 factories. In that role, he developed a cloud-based applications stack for deploying ML models, used daily for real-time training and predictions of dozens models across the teams. He has also developed several company-specific data science librairies to foster best practices and reusability.
 
-Before Energiency, Henri was a Software Engineer with 6+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around fullstack web and mobile development and DevOps practices. He has advanced knowledge of design patterns, architecture patterns, and databases.
+Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around fullstack web and mobile development and DevOps practices. He has advanced knowledge of design patterns, architecture patterns, and databases.
 </p>
 
 <h2 class="dark:text-stone-200">Formation</h2>
 <p class="dark:text-stone-300">
 Henri is currently a Ph.D. Student in Computer Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> in Canada.
-He hold (graduating top of his class in 2022) a Master of Science in Big Data: Business Intelligence and Machine Learning from the University of Rennes 1 in France.
+He hold (graduating top of his class in 2022) a <span class="">Master of Science in Big Data: Business Intelligence and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes</a> in France.
 In 2020, he earned a Bachelor of Science in Computer Science from the University of Rennes 1, also graduating as valedictorian.
 
-Prior to that, he graduated top his class in 2017 with a Bachelor of Science in Computer Science applied to Management from the University of Abomey-Calavi in Benin. He was a government scholar holder, and received the trophy of excellence awarded to the best student in computer science applied to management.
+Prior to that, he graduated top his class in 2017 with a Bachelor of Science in Computer Science applied to Management from the <a href="https://uac.bj/" target="_blank">University of Abomey-Calavi</a> in Benin. He was a government scholar holder, and received the trophy of excellence awarded to the best student in computer science applied to management.
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>

@@ -53,4 +53,8 @@
   .custom-font {
     font-family: "Special Elite"
   }
+
+  .highlight {
+    @apply bg-stone-600 text-stone-50
+  }
 }
