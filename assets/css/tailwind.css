@@ -870,6 +870,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: .8rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\!text-xl{
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+.\!text-2xl{
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
+.\!text-3xl{
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+}
+
 .font-extrabold{
   font-weight: 800;
 }
@@ -1820,6 +1845,26 @@ strong.dark{
   .md\:text-\[1rem\]{
     font-size: 1rem;
   }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:\!text-3xl{
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+
+  .md\:\!text-4xl{
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  .md\:\!text-5xl{
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1831,6 +1876,11 @@ strong.dark{
   .lg\:py-3{
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
