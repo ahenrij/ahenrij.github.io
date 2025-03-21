@@ -20,6 +20,8 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
+- text: Publications
+  permalink: publications
 - text: Blog
   permalink: blog
 
@@ -50,3 +52,4 @@ collections_dir: collections
 collections:
   - academics
   - projects
+  - publications
