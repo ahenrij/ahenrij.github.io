@@ -11,7 +11,7 @@ permalink: publications
             <div class="text-base font-bold text-stone-700 dark:text-stone-100 md:text-lg">{{ pub.year }}</div>
             <div class="flex flex-col space-y-0">
                 {% if pub.link == "" %}
-                    <p class="text-base md:text-lg font-bold !my-0">{{ pub.title }}</p>
+                    <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-300">{{ pub.title }}</p>
                 {% else %}
                     <p class="text-base md:text-lg font-bold !my-0"><a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a></p>
                 {% endif %}
