@@ -29,9 +29,9 @@ Prior to that, he graduated top his class in 2017 with a Bachelor of Science in 
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/202203_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2022-09)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/202504_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2025-04)</a></p>
  <iframe
- src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202209_CV_Henri_Aidasso__en_.pdf"
+ src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202504_CV_Henri_Aidasso__en_.pdf"
  width="100%"
  height="300px"
  style="border: none;"></iframe>
