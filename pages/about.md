@@ -19,7 +19,7 @@ Prior to that, he worked for two years at <a class="text-gray-500 dark:text-ston
 Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around fullstack web and mobile development and DevOps practices. He has advanced knowledge of design patterns, architecture patterns, and databases.
 </p>
 
-<h2 class="dark:text-stone-200">Formation</h2>
+<h2 class="dark:text-stone-200">Education</h2>
 <p class="dark:text-stone-300">
 Henri is currently a Ph.D. Student in Computer Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> in Canada.
 He hold (graduating top of his class in 2022) a <span class="">Master of Science in Big Data: Business Intelligence and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes 1</a> in France.
