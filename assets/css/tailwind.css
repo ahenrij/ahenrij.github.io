@@ -899,6 +899,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.\!font-bold{
+  font-weight: 700 !important;
+}
+
 .tracking-tight{
   letter-spacing: -0.025em;
 }
@@ -973,6 +977,11 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: none !important;
 }
 
+.no-underline{
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
 .shadow-sm{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -998,12 +1007,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.\!transition-all{
+  transition-property: all !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 150ms !important;
+}
+
 .duration-150{
   transition-duration: 150ms;
 }
 
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.duration-500{
+  transition-duration: 500ms;
+}
+
+.\!duration-500{
+  transition-duration: 500ms !important;
+}
+
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.\!ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .container{
@@ -1620,6 +1657,16 @@ body *{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:\!underline:hover{
+  -webkit-text-decoration-line: underline !important;
+          text-decoration-line: underline !important;
+}
+
 .focus\:border-white:focus{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1731,6 +1778,21 @@ body *{
 .dark .dark\:\!text-slate-400{
   --tw-text-opacity: 1 !important;
   color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+}
+
+.dark .dark\:text-stone-400{
+  --tw-text-opacity: 1;
+  color: rgb(168 162 158 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-300{
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:text-white:hover{
@@ -1850,6 +1912,11 @@ body *{
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
