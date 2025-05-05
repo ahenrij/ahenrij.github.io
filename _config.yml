@@ -22,6 +22,10 @@ nav-menu:
   permalink: about
 - text: Publications
   permalink: publications
+- text: Teaching
+  permalink: teaching
+- text: Tools
+  permalink: tools
 - text: Blog
   permalink: blog
 
@@ -53,3 +57,4 @@ collections:
   - academics
   - projects
   - publications
+  - teachings
