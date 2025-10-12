@@ -12,31 +12,37 @@ permalink: about
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-Henri J. Aïdasso is Ph.D. Student in Software and Computer Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> (Canada), working in the Kaloom-TELUS Industrial Research Chair in DevOps under the supervision of Prof. Francis Bordeleau. As part of his research works, he is exploring Intelligent DevOps approaches, i.e. new ways to improve DevOps processes using Artificial Intelligence (AI) and heterogeneous - textual logs and tabular - data available in software repositories. He is also a Mitacs Accelerate Fellow, working at <a href="https://www.telus.com/en/blog/business/what-is-a-software-defined-wide-area-network-sd-wan" target="_blank">TELUS</a> on its network softwarisation DevOps processes.
+Henri Aïdasso is a Ph.D. Researcher in Computer and Software Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure (ÉTS)</a>, part of the University of Quebec in Canada. He works within the ÉTS Industrial Research Chair in DevOps under the supervision of Prof. Francis Bordeleau. As a <a href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> affiliated with <a href="https://www.telus.com/en" target="_blank">TELUS</a>, his applied research focuses on optimizing the reliability of continuous integration and continuous deployment (CI/CD) pipelines in the context of highly distributed software.
 
-Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> in France, using AI to reduce energy consumption in industry 4.0 factories. In that role, he developed a cloud-based applications stack for deploying ML models, used daily for real-time training and predictions of dozens models across the teams. He has also developed several company-specific data science librairies to foster best practices and reusability.
+This work falls under the topic of <b>Intelligent DevOps</b> and explores new ways of improving software processes using efficient Artificial Intelligence (<b>AI</b>) and Machine Learning (<b>ML</b>) techniques relying on dense and heterogeneous textual logs as well as process metrics mined from multiple software repositories.
 
-Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around fullstack web and mobile development and DevOps practices. He has advanced knowledge of design patterns, architecture patterns, and databases.
+Henri has been recently awarded the <a href="https://www.fondationarbour.com/en/bourses-d-etudes-doctoract-phd-dba/" target="_blank">Arbour Foundation Doctoral Scholarship</a> in recognition of his academic execellence, leadership, and social impact.
+
+Beside his PhD work, he is currently a Research and Development Intern at the <a href="https://crim.ca" target="_blank">Computer Research Institute of Montreal (CRIM)</a>, where he is contributing to a range of applied research projects.
+<br><br>
+Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> in France, using AI to reduce energy consumption in industry 4.0 factories. In that role, he developed a cloud-based applications stack for serving ML models, used daily for real-time training and inference on dozens of customer-specific models. He has also developed several in-house data science Python librairies to foster best practices and reusability.
+
+Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around efficient backend engineering and DevOps practices. He has advanced knowledge of programming, design and architecture patterns, and databases.
 </p>
 
 <h2 class="dark:text-stone-200">Education</h2>
 <p class="dark:text-stone-300">
-Henri is currently a Ph.D. Student in Computer Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> in Canada.
-He hold (graduating top of his class in 2022) a <span class="">Master of Science in Big Data: Business Intelligence and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes 1</a> in France.
-In 2020, he earned a Bachelor of Science in Computer Science from the University of Rennes 1, also graduating as valedictorian.
+Henri is currently a Ph.D. Student in Computer and Software Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> in Canada.
+He hold a <span class="">Master of Science (M.Sc.) in Big Data: Decision Support and Machine Learning</span> from the <a href="https://www.univ-rennes.fr" target="_blank">University of Rennes I</a> in France (graduating top of his class with the highest honors).
+In 2020, he earned a Bachelor of Science (B.Sc.) in Computer Science from the University of Rennes I, also graduating as valedictorian with highest honors.
 
-Prior to that, he graduated top his class in 2017 with a Bachelor of Science in Computer Science applied to Management from the <a href="https://uac.bj/" target="_blank">University of Abomey-Calavi</a> in Benin. He was a government scholar holder, and received the trophy of excellence awarded to the best student in computer science applied to management.
+Prior to that, he graduated top his class in 2017 with a Bachelor of Science (B.Sc.) in Computer Science applied to Management from the <a href="https://uac.bj/" target="_blank">University of Abomey-Calavi</a> in Benin. He was a government scholar and received the trophy of excellence awarded to the best student in computer science applied to management for outstanding academic performance.
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/202504_CV_Henri_Aidasso__en_.pdf" class="dark:text-stone-300" target="_blank">Download (2025-04)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/202510_CV__en_Henri_Aidasso.pdf" class="dark:text-stone-300" target="_blank">Download (2025-10)</a></p>
  <iframe
- src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202504_CV_Henri_Aidasso__en_.pdf"
+ src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202510_CV__en_Henri_Aidasso.pdf"
  width="100%"
  height="300px"
  style="border: none;"></iframe>
 
-<h2 class="dark:text-stone-200">Some projects</h2>
+<h2 class="dark:text-stone-200">Old projects</h2>
 <div>
   {% for project in site.projects %}
     <div>
