@@ -857,6 +857,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
+.pr-4{
+  padding-right: 1rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1003,6 +1011,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .\!no-underline{
