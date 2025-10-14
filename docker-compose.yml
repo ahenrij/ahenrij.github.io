@@ -1,5 +1,3 @@
-version: '3.3'
-
 services:
   blog:
     image: jekyll/jekyll:latest
