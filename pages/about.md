@@ -16,13 +16,13 @@ Henri Aïdasso is a Ph.D. Researcher in Computer and Software Engineering at <a 
 
 This work falls under the topic of <b>Intelligent DevOps</b> and explores new ways of improving software processes using efficient Artificial Intelligence (<b>AI</b>) and Machine Learning (<b>ML</b>) techniques relying on dense and heterogeneous textual logs as well as process metrics mined from multiple software repositories.
 
-Henri has been recently awarded the <a href="https://www.fondationarbour.com/en/bourses-d-etudes-doctoract-phd-dba/" target="_blank">Arbour Foundation Doctoral Scholarship</a> in recognition of his academic execellence, leadership, and social impact.
+Henri has recently been awarded the <a href="https://www.fondationarbour.com/en/bourses-d-etudes-doctoract-phd-dba/" target="_blank">Arbour Foundation Doctoral Scholarship</a> in recognition of his dedication to academic execellence, leadership, and social impact.
 
-Beside his PhD work, he is currently a Research and Development Intern at the <a href="https://crim.ca" target="_blank">Computer Research Institute of Montreal (CRIM)</a>, where he is contributing to a range of applied research projects.
+Beside his PhD work, he is currently a Research and Development Intern at the <a href="https://crim.ca" target="_blank">Computer Research Institute of Montreal (CRIM)</a>, where he is contributing to a range of applied AI research projects.
 <br><br>
-Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> in France, using AI to reduce energy consumption in industry 4.0 factories. In that role, he developed a cloud-based applications stack for serving ML models, used daily for real-time training and inference on dozens of customer-specific models. He has also developed several in-house data science Python librairies to foster best practices and reusability.
+Prior to that, he worked for two years at <a class="text-gray-500 dark:text-stone-300" href="https://www.energiency.com/" target="_blank">Energiency</a> in France, leveraging ML to reduce energy consumption in large European industry 4.0 factories. In that role, he developed the cloud-based AI backend used daily for distributed training and real-time inference on dozens of customer-specific ML models. He has also developed several in-house data science Python librairies to foster best practices and reusability.
 
-Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around efficient backend engineering and DevOps practices. He has advanced knowledge of programming, design and architecture patterns, and databases.
+Before Energiency, Henri was a Software Engineer with 7+ years of experience across organizations in multiple domains including healthcare, education, and finance. He developed his skills around efficient backend engineering and DevOps practices. He has advanced knowledge of programming, software architecture patterns, and databases.
 </p>
 
 <h2 class="dark:text-stone-200">Education</h2>
