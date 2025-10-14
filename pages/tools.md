@@ -8,7 +8,7 @@ permalink: tools
     {% for tool in site.tools reversed %}
     <div class="mt-4 md:mt-8" key="{{ tool.id }}">
         <div class="flex flex-col space-y-0">
-            <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-100"><b>{{ tool.title }}</b> - {{ tool.description }}</p>
+            <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-100">{{ tool.title }} - <span class="font-normal">{{ tool.description }}</span></p>
             <p class="text-sm md:text-base text-stone-500 dark:text-gray-400 ">{{ tool.authors }}</p>
             <p class="text-[.8rem] md:text-[1rem] text-gray-400 -mt-1">
                 <span>{{ tool.venue }}</span>
