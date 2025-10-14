@@ -15,9 +15,7 @@ permalink: tools
                 {% for link in tool.links %}
                     <a href="{{ link.url }}" target="_blank" class="inline-flex items-center text-base mr-2 !no-underline hover:!underline">
                         {{ link.name }}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 10 10" class="ml-1 mt-1">
-                            <path d="M7.849,15.54,14.76,8.629v2.988a.833.833,0,0,0,1.667,0v-5a.832.832,0,0,0-.833-.833h-5a.833.833,0,1,0,0,1.667h2.988L6.671,14.362A.833.833,0,0,0,7.849,15.54Z" transform="translate(-6.427 -5.784)" fill="currentColor"/>
-                        </svg>
+                        {% include arrow-ne.html %}
                     </a>
                     {% unless forloop.last %} {% endunless %}
                 {% endfor %}
