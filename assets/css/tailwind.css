@@ -509,26 +509,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px !important;
 }
 
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-8{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.\!mx-8{
-  margin-left: 2rem !important;
-  margin-right: 2rem !important;
-}
-
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -848,11 +828,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0px !important;
 }
 
-.\!px-8{
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
 .pt-4{
   padding-top: 1rem;
 }
@@ -861,20 +836,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.pl-6{
-  padding-left: 1.5rem;
-}
-
-.pl-4{
-  padding-left: 1rem;
-}
-
 .pl-2{
   padding-left: 0.5rem;
-}
-
-.pl-1{
-  padding-left: 0.25rem;
 }
 
 .text-center{
@@ -1858,10 +1821,6 @@ body *{
     margin-top: 2rem;
   }
 
-  .md\:mt-6{
-    margin-top: 1.5rem;
-  }
-
   .md\:block{
     display: block;
   }
@@ -1942,5 +1901,10 @@ body *{
   .xl\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:\!text-2xl{
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
   }
 }

@@ -12,7 +12,7 @@ permalink: about
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
-Henri Aïdasso is a Ph.D. Researcher in Computer and Software Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure (ÉTS)</a>, part of the University of Quebec in Canada. He works within the ÉTS Industrial Research Chair in DevOps under the supervision of Prof. Francis Bordeleau. As a <a href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> affiliated with <a href="https://www.telus.com/en" target="_blank">TELUS</a>, his applied research focuses on optimizing the reliability of continuous integration and continuous deployment (CI/CD) pipelines in the context of highly distributed software.
+Henri Aïdasso is a Ph.D. Researcher in Engineering at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure (ÉTS)</a>, part of the University of Quebec in Canada. He works within the ÉTS Industrial Research Chair in DevOps under the supervision of Prof. Francis Bordeleau, and also as a <a href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> affiliated with <a href="https://www.telus.com/en" target="_blank">TELUS</a>. His applied research focuses on optimizing the reliability of continuous integration and continuous deployment (CI/CD) pipelines in the context of highly distributed software.
 
 This work falls under the topic of <b>Intelligent DevOps</b> and explores new ways of improving software processes using efficient Artificial Intelligence (<b>AI</b>) and Machine Learning (<b>ML</b>) techniques relying on dense and heterogeneous textual logs as well as process metrics mined from multiple software repositories.
 
