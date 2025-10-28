@@ -2,13 +2,59 @@
 layout: page
 title: About Me
 permalink: about
+slides:
+  - image: "/assets/img/slide/oldport_montreal.jpg"
+    title: "I love nature..."
+    desc: "A summer view at the <i>Old Port of Montreal</i>, Montreal, Canada."
+  - image: "/assets/img/slide/eclipse_montreal.jpg"
+    title: "... and unique moments"
+    desc: "Solar eclipse 3:27 p.m. at the <i>Saint Joseph's Oratory of Mount Royal</i>, Montreal, Canada."
+  - image: "/assets/img/slide/houses_trondheim.jpg"
+    title: "I find peace in beauty..."
+    desc: "Colorful wooden warehouses from the <i>Gamle bybro</i>, Trondeim, Norway."
+  - image: "/assets/img/slide/kanalen_trondheim.jpg"
+    title: "... and beautiful landspaces"
+    desc: "Morning calm on the <i>Kanalen</i> crossing the Nidelva River, Trondheim, Norway."
+  - image: "/assets/img/slide/queenswharf_auckland.jpg"
+    title: "... when cities breathe the sea"
+    desc: "Gray afternoon at <i>Queens Wharf</i>, Auckland, New Zealand."
+  - image: "/assets/img/slide/sunset_ottawa.jpg"
+    title: "... and the sky whispers goodbye."
+    desc: "Reddish sunset at 8:06 p.m. over the <i>Capital</i>, Ottawa, Canada."
 ---
 
 <div style="text-align: justify" class="custom-font">
 
-<img class="mx-auto !mb-0 h-56" src="{{site.baseurl}}/assets/img/nature.jpg">
-<p class="!py-0 !mb-0 dark:text-slate-300">I'm a nature lover.</p>
-<p class="text-gray-500 dark:text-slate-400 !py-0 !mt-0 !text-xs">A view at the <i>Old Port of Montreal</i> at Montréal, Québec, Canada.</p>
+<div class="relative w-full max-w-3xl mx-auto overflow-hidden  h-96">
+  <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+    {% for slide in page.slides %}
+      <div class="min-w-full flex flex-col">
+        <!-- Image -->
+        <img class="slide-img w-full h-72 object-cover !mb-0 p-0 block"
+             src="{{ site.baseurl }}{{ slide.image }}"
+             alt="{{ slide.title }}"
+             data-slide="{{ forloop.index0 }}">
+        <!-- Caption below image -->
+        <div id="caption-{{ forloop.index0 }}" 
+             class="caption-box w-full px-6  text-center transition-colors duration-500">
+          <p class="text-sm font-semibold text-white !-mb-3 !mt-2.5">{{ slide.title }}</p>
+          <p class="text-xs text-white/90 m-0 mb-1">{{ slide.desc }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Navigation buttons -->
+  <button id="prev" 
+          class="absolute top-1/2 left-4 -translate-y-1/2 bg-white/70 dark:bg-slate-800/70 hover:bg-white text-xl w-12 h-12 rounded-full flex items-center justify-center shadow-md text-slate-800 dark:text-white">
+    &#10094;
+  </button>
+
+  <button id="next" 
+          class="absolute top-1/2 right-4 -translate-y-1/2 bg-white/70 dark:bg-slate-800/70 hover:bg-white text-xl w-12 h-12 rounded-full flex items-center justify-center shadow-md text-slate-800 dark:text-white">
+    &#10095;
+  </button>
+</div>
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
@@ -62,3 +108,38 @@ Prior to that, he graduated top his class in 2017 with a Bachelor of Science (B.
   {% endfor %}
 </div>
 </div>
+
+{% raw %}
+<script>
+  const colorThief = new ColorThief();
+  const images = document.querySelectorAll('.slide-img');
+
+  images.forEach(img => {
+    if (img.complete) applyColor(img);
+    else img.addEventListener('load', () => applyColor(img));
+  });
+
+  function applyColor(img) {
+    try {
+      const rgb = colorThief.getColor(img);
+      const [r, g, b] = rgb;
+      const bg = `rgba(${r}, ${g}, ${b}, 0.7)`;
+      document.getElementById(`caption-${img.dataset.slide}`).style.backgroundColor = bg;
+    } catch (e) {
+      console.warn('Color extraction failed:', e);
+    }
+  }
+
+  // Slider navigation logic
+  const slider = document.getElementById('slider');
+  const slides = slider.children.length;
+  let index = 0;
+  document.getElementById('next').onclick = () => move(1);
+  document.getElementById('prev').onclick = () => move(-1);
+
+  function move(step) {
+    index = (index + step + slides) % slides;
+    slider.style.transform = `translateX(-${index * 100}%)`;
+  }
+</script>
+{% endraw %}
