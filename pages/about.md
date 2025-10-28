@@ -25,7 +25,7 @@ slides:
 
 <div style="text-align: justify" class="custom-font">
 
-<div class="relative w-full max-w-3xl mx-auto overflow-hidden  h-96">
+<div class="!relative w-full max-w-3xl mx-auto overflow-hidden !z-0">
   <div id="slider" class="flex transition-transform duration-700 ease-in-out">
     {% for slide in page.slides %}
       <div class="min-w-full flex flex-col">
@@ -37,23 +37,23 @@ slides:
         <!-- Caption below image -->
         <div id="caption-{{ forloop.index0 }}" 
              class="caption-box w-full px-6  text-center transition-colors duration-500">
-          <p class="text-sm font-semibold text-white !-mb-3 !mt-2.5">{{ slide.title }}</p>
-          <p class="text-xs text-white/90 m-0 mb-1">{{ slide.desc }}</p>
+          <p class="text-sm font-semibold text-white !-mb-3 !mt-3">{{ slide.title }}</p>
+          <p class="text-xs text-white/90 m-0 mb-1 py-0.5">{{ slide.desc }}</p>
         </div>
       </div>
     {% endfor %}
   </div>
 
-  <!-- Navigation buttons -->
-  <button id="prev" 
-          class="absolute top-1/2 left-4 -translate-y-1/2 bg-white/70 dark:bg-slate-800/70 hover:bg-white text-xl w-12 h-12 rounded-full flex items-center justify-center shadow-md text-slate-800 dark:text-white">
-    &#10094;
-  </button>
-
-  <button id="next" 
-          class="absolute top-1/2 right-4 -translate-y-1/2 bg-white/70 dark:bg-slate-800/70 hover:bg-white text-xl w-12 h-12 rounded-full flex items-center justify-center shadow-md text-slate-800 dark:text-white">
-    &#10095;
-  </button>
+  <div class="flex justify-between items-center w-full -mt-20 px-1">
+    <button id="prev"
+            class="pointer-events-auto backdrop-blur-sm bg-white/30 dark:bg-slate-700/30 hover:bg-white/40 dark:hover:bg-slate-700/50 text-lg font-semibold px-4 py-2 rounded-md shadow-sm text-slate-800 dark:text-white transition">
+      ← Prev
+    </button>
+    <button id="next"
+            class="pointer-events-auto backdrop-blur-sm bg-white/30 dark:bg-slate-700/30 hover:bg-white/40 dark:hover:bg-slate-700/50 text-lg font-semibold px-4 py-2 rounded-md shadow-sm text-slate-800 dark:text-white transition">
+      Next →
+    </button>
+  </div>
 </div>
 
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>

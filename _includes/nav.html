@@ -1,4 +1,4 @@
-<nav class="flex flex-wrap items-center justify-center px-2 mb-1 md:mb-6">
+<nav class="flex flex-wrap items-center justify-center px-2 mb-1 md:mb-6 !z-50">
     <div class="container px-4 mx-auto flex flex-wrap">
         <button class="md:hidden flex text-sm border-transparent rounded-full dark:text-white dark:border-black focus:outline-none focus:border-white transition duration-150 ease-in-out"
         id="menu" aria-label="Menu" aria-haspopup="true">
@@ -8,7 +8,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
-        <div id="menu-dropdown" class="menu-hidden !md:visible origin-top-left absolute mt-2 ml-5 w-48 rounded-md shadow-lg">
+        <div id="menu-dropdown" class="menu-hidden !md:visible origin-top-left absolute mt-2 ml-5 w-48 rounded-md shadow-lg !z-50">
             <div class="py-1 rounded-md bg-white dark:bg-slate-700 shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="menu">
                 {% include nav-content.html %}
             </div>
