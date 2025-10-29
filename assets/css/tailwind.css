@@ -631,6 +631,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.125rem !important;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.\!ml-2{
+  margin-left: 0.5rem !important;
+}
+
 .block{
   display: block;
 }
@@ -987,6 +995,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem !important;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1144,6 +1156,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .\!no-underline{
   -webkit-text-decoration-line: none !important;
           text-decoration-line: none !important;
+}
+
+.no-underline{
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .shadow-sm{
