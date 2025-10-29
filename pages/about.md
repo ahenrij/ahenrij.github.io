@@ -58,7 +58,6 @@ slides:
   </div>
 </div>
 
-
 <h2 class="dark:text-stone-200 mt-32">Summary</h2>
 <p class="dark:text-stone-300">
 Henri Aïdasso is a Ph.D. Researcher in Computer Engineering at <a class="link" href="https://etsmtl.ca" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec in Canada. He works as part of the ÉTS Industrial Research Chair in DevOps under the supervision of Prof. Francis Bordeleau, focusing on analytics and AI-powered measurement and improvement of software process quality. He is also a <a class="link" href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> affiliated with <a href="https://www.telus.com/en" target="_blank" class="link">TELUS</a>, where he conducts applied AI research to improve the efficiency and reliability of CI/CD pipelines.
