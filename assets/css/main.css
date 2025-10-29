@@ -51,14 +51,22 @@
   }
 
   .custom-font {
-    font-family: "Lato"
+    font-family: "Lato";
   }
 
   .highlight {
-    @apply bg-stone-600 text-stone-50
+    @apply bg-stone-600 text-stone-50;
   }
 
   body * {
     @apply transition-colors duration-300;
+  }
+
+  .home-paragraph {
+    @apply text-slate-500 dark:text-stone-100 mx-5 py-0 md:mx-auto text-base lg:text-lg xl:text-lg;
+  }
+
+  .link {
+    @apply relative text-emerald-600 dark:text-emerald-400 font-medium after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-emerald-500 after:transition-all after:duration-300 hover:after:w-full hover:text-emerald-700 dark:hover:text-emerald-300;
   }
 }
