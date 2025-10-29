@@ -13,7 +13,7 @@ slides:
     title: "I find peace in beauty..."
     desc: "Colorful wooden warehouses from the <i>Gamle bybro</i>, Trondeim, Norway."
   - image: "/assets/img/slide/kanalen_trondheim.jpg"
-    title: "... and beautiful landspaces"
+    title: "... in beautiful landspaces"
     desc: "Morning calm on the <i>Kanalen</i> crossing the Nidelva River, Trondheim, Norway."
   - image: "/assets/img/slide/queenswharf_auckland.jpg"
     title: "... when cities breathe the sea"
