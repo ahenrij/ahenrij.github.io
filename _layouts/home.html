@@ -50,7 +50,7 @@ layout: default
 
     var typewriter = new Typewriter(typing, {
       loop: true,
-      delay: 200,
+      delay: 150,
     });
 
     typewriter
@@ -61,6 +61,9 @@ layout: default
       .pauseFor(PAUSE)
       .deleteAll()
       .typeString('Natural Language Processing')
+      .pauseFor(PAUSE)
+      .deleteAll()
+      .typeString('Artificial Intelligence for Software Engineering')
       .pauseFor(PAUSE)
       .deleteAll()
       .typeString('Speech Processing')
