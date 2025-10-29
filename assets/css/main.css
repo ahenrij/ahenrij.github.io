@@ -69,13 +69,14 @@
   .link {
     @apply relative font-medium 
           text-emerald-600 
-          dark:text-emerald-300/90
+          dark:text-sky-400
           after:content-[''] after:absolute after:left-0 after:bottom-0 
           after:w-0 after:h-[2px] after:bg-emerald-500 
-          dark:after:bg-emerald-600/80
+          dark:after:bg-sky-600/80
           after:transition-all after:duration-300 
           hover:after:w-full 
           hover:text-emerald-700 
-          dark:hover:text-emerald-200;
+          dark:hover:text-sky-300;
+
   }
 }
