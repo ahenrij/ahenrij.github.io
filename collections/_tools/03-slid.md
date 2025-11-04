@@ -1,6 +1,6 @@
 ---
 title: "SLID"
-description: "Small Language model -based Intermittent failures Detector"
+description: "Small Language Model-based Intermittent Failure Detector"
 authors: Henri Aïdasso, Francis Bordeleau, Ali Tizghadam
 year: 2025
 venue: "Accepted at the IEEE 41st International Conference on Software Maintenance and Evolution, Artifact Evaluation (ICSME '25) &nbsp;"
