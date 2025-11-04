@@ -1,7 +1,7 @@
 ---
 title: "Towards Build Optimization Using Digital Twins"
 authors: Henri Aïdasso, Francis Bordeleau, Ali Tizghadam
-venue: "ACM 21st International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE) 2025"
+venue: "ACM 21st International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE 2025)"
 date: 2025-03-25
 links:
     - name: "arxiv.org"
