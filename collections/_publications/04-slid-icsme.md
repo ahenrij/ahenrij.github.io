@@ -6,4 +6,6 @@ date: 2025-09-01
 links:
     - name: "arxiv.org"
       url: https://arxiv.org/abs/2507.04173
+    - name: "doi.org"
+      url: https://ieeexplore.ieee.org/document/11185937
 ---
