@@ -1,5 +1,5 @@
 ---
-title: "glbuild"
+title: "GlBuild"
 description: "Efficient build data collection tool with failure recovery"
 authors: Henri Aïdasso
 year: 2025
