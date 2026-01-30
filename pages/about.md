@@ -72,33 +72,13 @@ Henri is completing his <b>Ph.D. in Computer Engineering</b> at <a class="link" 
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/202510_CV__en_Henri_Aidasso.pdf" class="dark:text-stone-300" target="_blank">Download (2025-10)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/CV_Henri_Aidasso.pdf" class="dark:text-stone-300" target="_blank">Download (2025-10)</a></p>
  <iframe
  src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202510_CV__en_Henri_Aidasso.pdf"
  width="100%"
  height="300px"
  style="border: none;"></iframe>
 
-<h2 class="dark:text-stone-200">Old projects</h2>
-<div>
-  {% for project in site.projects %}
-    <div>
-  <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-  <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
-    </div>
-  {% endfor %}
-</div>
-
-<h2 class="dark:text-stone-200 hidden">Some academic projects</h2>
-<div class="hidden">
-  {% for project in site.academics %}
-    <div>
-  <h4><a class="!mb-0" href="{{ project.link }}" class="dark:text-stone-300" target="_blank">{{ project.title }}</a></h4>
-  <p class="text-md text-stone-500 dark:text-stone-300 !mt-0">{{ project.description }}</p>
-    </div>
-  {% endfor %}
-</div>
-</div>
 
 {% raw %}
 <script>
