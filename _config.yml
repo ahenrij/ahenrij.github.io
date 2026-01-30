@@ -24,8 +24,8 @@ nav-menu:
   permalink: publications
 - text: Teaching
   permalink: teaching
-- text: Tools
-  permalink: tools
+- text: Projects
+  permalink: projects
 - text: Services
   permalink: services
 
@@ -58,5 +58,5 @@ collections:
   - projects
   - publications
   - teachings
-  - tools
+  - projects
   - services
