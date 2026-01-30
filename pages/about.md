@@ -72,7 +72,7 @@ Henri is completing his <b>Ph.D. in Computer Engineering</b> at <a class="link" 
 </p>
 
 <h2 class="dark:text-stone-200">Curriculum Vitae</h2>
- <p><a href="{{site.baseurl}}/assets/raw/CV_Henri_Aidasso.pdf" class="dark:text-stone-300" target="_blank">Download (2025-10)</a></p>
+ <p><a href="{{site.baseurl}}/assets/raw/CV_Henri_Aidasso.pdf" class="dark:text-stone-300" target="_blank">Download (2026)</a></p>
  <iframe
  src="{{site.baseurl}}/assets/js/viewer/viewer.html?file={{site.baseurl}}/assets/raw/202510_CV__en_Henri_Aidasso.pdf"
  width="100%"
