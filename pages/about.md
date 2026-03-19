@@ -23,7 +23,7 @@ slides:
     desc: "Reddish sunset at 8:06 p.m. over the <i>Capital</i>, Ottawa, Canada."
 ---
 
-<div style="text-align: justify" class="custom-font">
+<div style="text-align: justify; margin-top: -1rem;" class="custom-font">
 
 <div class="w-full max-w-3xl mx-auto overflow-hidden">
   <!-- Slider wrapper -->
