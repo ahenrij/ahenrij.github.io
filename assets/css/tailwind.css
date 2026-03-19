@@ -583,6 +583,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -0.25rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -688,6 +696,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 48rem;
 }
 
+.max-w-4xl{
+  max-width: 56rem;
+}
+
+.max-w-none{
+  max-width: none;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
+}
+
 .origin-top-left{
   transform-origin: top left;
 }
@@ -758,6 +778,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-width: 1px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
 .border-transparent{
   border-color: transparent;
 }
@@ -770,6 +794,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-stone-500{
   --tw-border-opacity: 1;
   border-color: rgb(120 113 108 / var(--tw-border-opacity));
+}
+
+.border-stone-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(231 229 228 / var(--tw-border-opacity));
 }
 
 .bg-white{
@@ -874,6 +903,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0.5rem;
 }
 
+.pb-1{
+  padding-bottom: 0.25rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -923,6 +956,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[\.9rem\]{
   font-size: .9rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-extrabold{
@@ -1829,6 +1867,11 @@ body *{
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.dark .dark\:border-stone-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(87 83 78 / var(--tw-border-opacity));
+}
+
 .dark .dark\:bg-slate-800{
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -1965,6 +2008,10 @@ body *{
     margin-top: 2rem;
   }
 
+  .md\:mt-6{
+    margin-top: 1.5rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -2020,6 +2067,11 @@ body *{
 
   .md\:text-\[1\.1rem\]{
     font-size: 1.1rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
