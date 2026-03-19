@@ -23,11 +23,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@fontsource/inter@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.1.tgz"
-  integrity sha512-mvtOvXNNVLlF1p/UbLgLrmz2RCOl6Ow+TqyiK10SosoLKX7edsXYiHFHb7XIZdjII6F2sJVPPsJXWhBnbXT2DQ==
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
