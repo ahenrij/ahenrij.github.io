@@ -32,6 +32,18 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        ...require('tailwindcss/colors'),
+        dark: {
+          bg:       '#131313',
+          surface:  '#1a1a1a',
+          elevated: '#242424',
+          border:   '#2b2b2b',
+          accent:   '#8ddd8d',
+          text:     '#e8e8e8',
+          muted:    '#888888',
+        },
+      },
     },
   },
 

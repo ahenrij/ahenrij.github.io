@@ -6,7 +6,7 @@ permalink: teaching
 
 <div class="custom-font flex flex-col gap-4 mt-4">
     {% for teaching in site.teachings reversed %}
-    <div class="rounded-xl border border-stone-200 dark:border-stone-700 p-5 dark:bg-slate-900" key="{{ teaching.id }}">
+    <div class="theme-card rounded-xl p-5" key="{{ teaching.id }}">
         <div class="flex items-start justify-between gap-2 mb-2">
             <div>
                 <h3 class="!mt-0 !mb-0 text-base md:!text-lg font-bold dark:text-stone-100">{{ teaching.course }}</h3>
@@ -15,7 +15,7 @@ permalink: teaching
                 {% endif %}
             </div>
             {% if teaching.position == "Lecturer" %}
-            <span class="shrink-0 text-sm font-medium px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200">{{ teaching.position }}</span>
+            <span class="theme-tag shrink-0 text-sm font-medium px-2.5 py-0.5 rounded-full">{{ teaching.position }}</span>
             {% else %}
             <span class="shrink-0 text-sm font-medium px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 dark:bg-slate-700 dark:text-stone-300">{{ teaching.position }}</span>
             {% endif %}

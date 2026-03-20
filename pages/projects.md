@@ -6,7 +6,7 @@ permalink: projects
 
 <div class="custom-font grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-4">
     {% for project in site.projects reversed %}
-    <div class="flex flex-col justify-between rounded-xl border border-stone-200 dark:border-stone-700 p-5 hover:shadow-md transition-shadow duration-200 dark:bg-slate-900" key="{{ project.id }}">
+    <div class="theme-card theme-card-hover flex flex-col justify-between rounded-xl p-5 transition-shadow duration-200" key="{{ project.id }}">
         <div>
             <div class="flex items-start justify-between gap-2 mb-1">
                 <h3 class="!mt-0 !mb-0 text-base md:!text-lg font-bold dark:text-stone-100">{{ project.title }}</h3>
@@ -21,7 +21,7 @@ permalink: projects
         {% if project.links %}
         <div class="flex flex-wrap gap-2 mt-2">
             {% for link in project.links %}
-            <a href="{{ link.url }}" target="_blank" class="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-slate-700 !no-underline transition-colors duration-150">
+            <a href="{{ link.url }}" target="_blank" class="theme-link-pill inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full !no-underline transition-colors duration-150">
                 {{ link.name }}
                 {% include arrow-ne.html %}
             </a>

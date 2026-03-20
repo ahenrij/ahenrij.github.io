@@ -18,7 +18,7 @@ permalink: services
                     <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-100">
                         {{ serv.title }}
                         <span class="text-base md:text-lg text-stone-500 font-normal dark:text-stone-300"> for the {{ serv.venue }}</span>
-                        <a href="{{ serv.link }}" target="_blank" class="inline-flex items-center text-base mr-2 pl-1 !no-underline hover:!underline">
+                        <a href="{{ serv.link }}" target="_blank" class="link-arrow text-sm ml-1">
                             website
                             {% include arrow-ne.html %}
                         </a>

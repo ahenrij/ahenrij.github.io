@@ -20,7 +20,7 @@ permalink: publications
                     <p class="text-[.8rem] md:text-[1rem] text-gray-400 -mt-1">
                         <span>{{ pub.venue }}</span>
                         {% for link in pub.links %}
-                            <a href="{{ link.url }}" target="_blank" class="inline-flex items-center text-whitepx-4 text-base ml-1 !no-underline hover:!underline">
+                            <a href="{{ link.url }}" target="_blank" class="link-arrow text-sm ml-1">
                                 {{ link.name }}
                                 {% include arrow-ne.html %}
                             </a>

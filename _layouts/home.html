@@ -5,71 +5,67 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="custom-font mx-auto prose prose-{{site.theme-color}}">
-  <div>
-    <img class="object-cover mx-auto h-48 w-48 mt-0 md:mt-8 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
+<div class="custom-font mx-auto px-4 py-6 md:py-10 max-w-none">
+
+  <!-- Hero: photo + name + typewriter -->
+  <div class="text-center mb-6">
+    <img class="object-cover mx-auto h-36 w-36 md:h-44 md:w-44 rounded-full shadow-md mb-4"
+      src="{{site.baseurl}}/assets/img/{{site.author-image}}"
       alt="author profile image">
-    <h1 class="dark:text-white font-semibold text-center !text-3xl md:!text-4xl">{{site.author}}</h1>
+    <h1 class="dark:text-white font-bold !text-3xl md:!text-4xl !mb-4">{{site.author}}</h1>
+    <p class="text-lg md:text-xl text-stone-500 dark:text-stone-300 !mt-1 !mb-6 min-h-[1.75rem]">
+      <span id="typing"></span>
+    </p>
+
+    <!-- Affiliation badges -->
+    <div class="flex flex-wrap justify-center gap-2 mb-5">
+      <span class="theme-badge inline-flex items-center gap-1.5 text-xs md:text-sm px-3 py-1 rounded-full">
+        <i class="theme-icon fas fa-graduation-cap"></i>
+        Ph.D. Candidate · ÉTS
+      </span>
+      <span class="theme-badge inline-flex items-center gap-1.5 text-xs md:text-sm px-3 py-1 rounded-full">
+        <i class="theme-icon fas fa-flask"></i>
+        R&D Intern · CRIM
+      </span>
+    </div>
   </div>
 
-  {% if site.author-bio %}
-  <div>
-    <p class="mx-5 text-center md:mx-auto !text-lg xl:!text-xl lg:py-1 dark:text-white"><span id="typing"></span></p>
-    
+  <!-- Short bio -->
+  <div class="max-w-2xl mx-auto mb-6">
     <p class="home-paragraph text-center">
-      Hi! I'm Henri Aïdasso, born and raised in Benin, a humble place that taught me the value of adaptability, efficiency, and hard work. 
+      Hi! I'm Henri Aïdasso, born and raised in Benin, a humble place that taught me the value of adaptability, efficiency, and hard work.
       Over the past decade, I've studied across three continents and worked across a dozen organizations of all sizes: startups, government institutions, research centers, and global corporations.
-      I'm currently completing a PhD in Computer Engineering at <a href="https://www.etsmtl.ca/en/" class="link" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec, Canada.
-    </p>
-
-    <p class="home-paragraph text-center">
-      I’m a lifelong learner and researcher. My defining skill is the ability to quickly grasp new knowledge, which enables me to tackle challenges in fast evolving contexts.
-      My research focuses on applied AI, specifically efficient NLP, multimodal learning, and AI for software engineering. 
-      I thrive on bridging fundamental AI research with real-world application, tackling complex problems that require both scientific rigor and practical impact.
-    </p>
-
-    <p class="home-paragraph text-center">
+      I'm currently completing a PhD in Computer Engineering at <a href="https://www.etsmtl.ca/en/" class="link" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec, as a Mitacs Accelerate Fellow in collaboration with <a href="https://www.telus.com/" class="link" target="_blank">TELUS</a>.
+    
+      My research focuses on AI for software engineering, specifically NLP for anomaly detection and diagnosis in large scale systems and efficient machine learning methods, bridging fundamental research with real-world impact. <br>
       Read <a class="link" href="/about">more about me</a>.
     </p>
   </div>
-  {% endif %}
+
 
 </div>
 
 {% include social-media.html %}
-
 {% include footer.html %}
 
 <script type="text/javascript">
-  (function(){
-    type();
-  })();
+  (function(){ type(); })();
 
   function type() {
     var typing = document.getElementById('typing');
-    const PAUSE = 2000; // 2s
-
-    var typewriter = new Typewriter(typing, {
-      loop: true,
-      delay: 150,
-    });
-
+    const PAUSE = 2000;
+    var typewriter = new Typewriter(typing, { loop: true, delay: 100 });
     typewriter
       .typeString('Applied Research Scientist')
-      .pauseFor(PAUSE)
-      .deleteAll()
-      .typeString('Efficient and Reliable ML Systems')
-      .pauseFor(PAUSE)
-      .deleteAll()
+      .pauseFor(PAUSE).deleteAll()
       .typeString('Natural Language Processing')
-      .pauseFor(PAUSE)
-      .deleteAll()
-      .typeString('Artificial Intelligence for Software Engineering')
-      .pauseFor(PAUSE)
-      .deleteAll()
-      .typeString('Multimodal Learning')
-      .pauseFor(PAUSE)
-      .deleteAll()
+      .pauseFor(PAUSE).deleteAll()
+      .typeString('Efficient Learning Methods')
+      .pauseFor(PAUSE).deleteAll()
+      .typeString('Reliability Engineering')
+      .pauseFor(PAUSE).deleteAll()
+      .typeString('AI for Software Engineering')
+      .pauseFor(PAUSE).deleteAll()
       .start();
   }
 </script>
