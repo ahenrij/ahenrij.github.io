@@ -606,6 +606,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .mt-8{
   margin-top: 2rem;
 }
@@ -2413,8 +2417,8 @@ body *{
     line-height: 2.5rem !important;
   }
 
-  .md\:text-lg{
-    font-size: 1.125rem;
+  .md\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -2445,16 +2449,6 @@ body *{
   .md\:\!text-2xl{
     font-size: 1.5rem !important;
     line-height: 2rem !important;
-  }
-
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 

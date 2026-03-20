@@ -15,8 +15,8 @@ permalink: publications
             {% for pub in group.items %}
             <div class="" key="{{ pub.id }}">
                 <div class="flex flex-col space-y-0">
-                    <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-100">{{ pub.title }}</p>
-                    <p class="text-base md:text-lg text-stone-500 dark:text-stone-300">{{ pub.authors }}</p>
+                    <p class="text-sm md:text-base font-bold !my-0 dark:text-stone-100">{{ pub.title }}</p>
+                    <p class="text-sm md:text-base text-stone-500 dark:text-stone-300">{{ pub.authors }}</p>
                     <p class="text-[.8rem] md:text-[1rem] text-gray-400 -mt-1">
                         <span>{{ pub.venue }}</span>
                         {% for link in pub.links %}

@@ -15,9 +15,9 @@ permalink: services
             {% for serv in group.items %}
             <div class="" key="{{ serv.id }}">
                 <div class="flex flex-col space-y-0">
-                    <p class="text-base md:text-lg font-bold !my-0 dark:text-stone-100">
+                    <p class="text-sm md:text-base font-bold !my-0 dark:text-stone-100">
                         {{ serv.title }}
-                        <span class="text-base md:text-lg text-stone-500 font-normal dark:text-stone-300"> for the {{ serv.venue }}</span>
+                        <span class="text-sm md:text-base text-stone-500 font-normal dark:text-stone-300"> for the {{ serv.venue }}</span>
                         <a href="{{ serv.link }}" target="_blank" class="link-arrow text-sm ml-1">
                             website
                             {% include arrow-ne.html %}

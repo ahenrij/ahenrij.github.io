@@ -19,7 +19,7 @@ permalink: projects
             {% endif %}
         </div>
         {% if project.links %}
-        <div class="flex flex-wrap gap-2 mt-2">
+        <div class="flex flex-wrap gap-2 mt-0">
             {% for link in project.links %}
             <a href="{{ link.url }}" target="_blank" class="theme-link-pill inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full !no-underline transition-colors duration-150">
                 {{ link.name }}
