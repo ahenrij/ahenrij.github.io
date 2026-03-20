@@ -4,6 +4,6 @@ authors: Henri Aïdasso, Francis Bordeleau, Ali Tizghadam
 venue: "arXiv (preprint)"
 date: 2026-01-28
 links:
-    - name: "preprint"
+    - name: "arxiv.org"
       url: https://arxiv.org/abs/2601.22264
 ---
