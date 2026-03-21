@@ -97,13 +97,13 @@
   }
 
   .theme-tag {
-    @apply bg-green-100 text-green-800;
-    @apply dark:bg-dark-surface dark:text-dark-accent;
+    @apply bg-green-100 text-green-700;
+    @apply dark:bg-green-900 dark:text-green-300;
   }
 
   .theme-card {
     @apply bg-white border border-stone-200;
-    @apply dark:bg-dark-surface dark:border-dark-border;
+    @apply dark:bg-dark-elevated dark:border-dark-border;
   }
 
   .theme-card-hover {
@@ -135,10 +135,10 @@
 
   .theme-link-pill {
     @apply border border-stone-300 text-stone-600;
-    @apply dark:border-dark-border dark:text-dark-muted;
+    @apply dark:bg-dark-highlight dark:border-dark-border dark:text-dark-text;
   }
   .theme-link-pill:hover {
-    @apply bg-stone-100 dark:bg-dark-elevated dark:text-dark-text;
+    @apply bg-stone-100 dark:bg-dark-border dark:text-dark-text;
   }
 
   /* ── Social buttons ───────────────────────── */
@@ -148,7 +148,7 @@
   }
 
   .dark .dark-social-btn {
-    @apply bg-dark-surface text-dark-text;
+    @apply bg-dark-highlight text-dark-text border border-dark-border;
     box-shadow: 0 1px 4px rgba(0,0,0,0.5);
   }
 

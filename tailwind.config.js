@@ -1,4 +1,9 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const safeColors = Object.fromEntries(
+  Object.entries(Object.getOwnPropertyDescriptors(require('tailwindcss/colors')))
+    .filter(([, desc]) => !desc.get)
+    .map(([key, desc]) => [key, desc.value])
+)
 
 module.exports = {
   content: [
@@ -33,12 +38,13 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        ...require('tailwindcss/colors'),
+        ...safeColors,
         dark: {
-          bg:       '#131313',
-          surface:  '#1a1a1a',
-          elevated: '#242424',
-          border:   '#2b2b2b',
+          bg:        '#131313',
+          surface:   '#1a1a1a',
+          elevated:  '#242424',
+          border:    '#2b2b2b',
+          highlight: '#323232',
           accent:   '#8ddd8d',
           text:     '#e8e8e8',
           muted:    '#888888',
