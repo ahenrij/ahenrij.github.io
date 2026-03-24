@@ -1127,6 +1127,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem !important;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }

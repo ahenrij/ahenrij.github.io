@@ -65,7 +65,7 @@ Henri Aïdasso is a Ph.D. Researcher in Computer Engineering at <a class="link" 
 
 <h2 class="dark:text-stone-200">Education</h2>
 
-<div class="not-prose mt-4 relative border-l-2 border-stone-200 dark:border-dark-border ml-2 space-y-6 pb-2">
+<div class="not-prose mt-4 relative border-l-2 border-stone-200 dark:border-dark-border ml-2 space-y-6 pb-2 text-left">
 
   <div class="relative pl-6">
     <div class="absolute -left-1.5 top-[0.35rem] w-3 h-3 rounded-full bg-emerald-600 dark:bg-dark-accent border-2 border-white dark:border-dark-bg"></div>
@@ -103,13 +103,13 @@ Henri Aïdasso is a Ph.D. Researcher in Computer Engineering at <a class="link" 
 
 <h2 class="dark:text-stone-200">Awards & Recognition</h2>
 
-<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-3 mt-4 text-left">
 
   <div class="theme-card rounded-lg p-4 flex gap-3 items-start">
     <i class="fas fa-award text-emerald-600 dark:text-dark-accent mt-0.5 text-base shrink-0"></i>
     <div>
       <p class="font-semibold text-sm dark:text-stone-100 leading-snug mb-0"><a class="link" href="https://www.fondationarbour.com/en/bourses-d-etudes-doctoract-phd-dba/" target="_blank">Arbour Foundation Doctoral Scholarship</a></p>
-      <p class="text-xs text-stone-500 dark:text-stone-400 mt-1 mb-0">Academic excellence and leadership · $30,000 CAD · 2025</p>
+      <p class="text-xs text-stone-500 dark:text-stone-400 mt-1 mb-0">Highly selective for academic excellence and leadership · $30,000 CAD · 2025</p>
     </div>
   </div>
 
@@ -124,7 +124,7 @@ Henri Aïdasso is a Ph.D. Researcher in Computer Engineering at <a class="link" 
   <div class="theme-card rounded-lg p-4 flex gap-3 items-start">
     <i class="fas fa-graduation-cap text-emerald-600 dark:text-dark-accent mt-0.5 text-base shrink-0"></i>
     <div>
-      <p class="font-semibold text-sm dark:text-stone-100 leading-snug mb-0">Valedictorian, M.Sc. in Big Data &amp; ML</p>
+      <p class="font-semibold text-sm dark:text-stone-100 leading-snug mb-0">Valedictorian, M.Sc. in Big Data &amp; Machine Learning</p>
       <p class="text-xs text-stone-500 dark:text-stone-400 mt-1 mb-0">Highest Honors (Mention Très Bien) · University of Rennes · 2022</p>
     </div>
   </div>
@@ -138,10 +138,10 @@ Henri Aïdasso is a Ph.D. Researcher in Computer Engineering at <a class="link" 
   </div>
 
   <div class="theme-card rounded-lg p-4 flex gap-3 items-start">
-    <i class="fas fa-graduation-cap text-emerald-600 dark:text-dark-accent mt-0.5 text-base shrink-0"></i>
+    <i class="fas fa-award text-emerald-600 dark:text-dark-accent mt-0.5 text-base shrink-0"></i>
     <div>
-      <p class="font-semibold text-sm dark:text-stone-100 leading-snug mb-0">Valedictorian &amp; Trophy of Excellence, B.Sc. in CS &amp; Management</p>
-      <p class="text-xs text-stone-500 dark:text-stone-400 mt-1 mb-0">University of Abomey-Calavi · 2017</p>
+      <p class="font-semibold text-sm dark:text-stone-100 leading-snug mb-0">Trophy of Excellence, B.Sc. in CS &amp; Management</p>
+      <p class="text-xs text-stone-500 dark:text-stone-400 mt-1 mb-0">Valedictorian from 2014 to 2017 at University of Abomey-Calavi · 2017</p>
     </div>
   </div>
 

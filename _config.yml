@@ -28,6 +28,8 @@ nav-menu:
   permalink: projects
 - text: Services
   permalink: services
+- text: Blog
+  permalink: blog
 
 # use false to turn off any social media links
 twitter: false
