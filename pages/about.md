@@ -47,20 +47,24 @@ slides:
 
   <!-- Navigation buttons -->
   <div class="flex justify-between items-center w-full mt-4 px-2">
-    <button
-      id="prev"
-      class="text-lg font-semibold text-slate-800 dark:text-white hover:underline transition"
-    >← Prev</button>
-    <button
-      id="next"
-      class="text-lg font-semibold text-slate-800 dark:text-white hover:underline transition"
-    >Next →</button>
+    <button id="prev" class="group flex items-center gap-1.5 text-sm font-medium text-slate-800 dark:text-white hover:opacity-70 transition">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 3L5 8l5 5"/>
+      </svg>
+      Prev
+    </button>
+    <button id="next" class="group flex items-center gap-1.5 text-sm font-medium text-slate-800 dark:text-white hover:opacity-70 transition">
+      Next
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 3l5 5-5 5"/>
+      </svg>
+    </button>
   </div>
 </div>
 
 <h2 class="dark:text-stone-200 mt-12">Background</h2>
 <p class="dark:text-stone-300">
-Henri Aïdasso obtained a Ph.D. in Computer Engineering (Grade: Excellent) from <a class="link" href="https://www.etsmtl.ca/en/" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec, under the supervision of Prof. Francis Bordeleau and as a <a class="link" href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> with <a class="link" href="https://www.telus.com/en" target="_blank">TELUS</a>. His doctoral research focused on <b>AI for Software Engineering</b>, applying Machine Learning, NLP, and Language Models techniques to execution logs and process metrics for intelligent reliability engineering in CI/CD systems. He is also a part-time Research &amp; Development Intern at <a class="link" href="https://crim.ca" target="_blank">CRIM</a> and a part-time Lecturer at ÉTS. Prior to his PhD, he was obtained a M.Sc. in Big Data: Decision Support and Machine Learning from the <a class="link" target="_blank" href="https://www.univ-rennes.fr/en">University of Rennes 1</a> in France, graduating valedictorian with the highest french academic honors. He was a Data Scientist at <a class="link" href="https://www.energiency.com/" target="_blank">Energiency</a> (France), leading the engineering of ML systems for real-time energy optimization in Industry 4.0, and earlier built software engineering expertise across a variety of organizations including <a class="link" href="https://worldline.com/" target="_blank">Worldline</a> and the <a class="link" href="https://portdecotonou.bj/" target="_blank">Port Authority of Cotonou</a>.
+Henri Aïdasso obtained a Ph.D. in Computer Engineering (Grade: Excellent) from <a class="link" href="https://www.etsmtl.ca/en/" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec, under the supervision of Prof. Francis Bordeleau and as a <a class="link" href="https://www.mitacs.ca/our-programs/accelerate/">Mitacs Accelerate Fellow</a> with <a class="link" href="https://www.telus.com/en" target="_blank">TELUS</a>. His doctoral research focused on the reliability of multi-component automated systems, applying machine learning and NLP to execution logs and process metrics for intelligent anomaly detection and diagnosis in CI/CD systems. He is also a part-time Research &amp; Development Intern at <a class="link" href="https://crim.ca" target="_blank">CRIM</a> and a part-time Lecturer at ÉTS. Prior to his PhD, he was obtained a M.Sc. in Big Data: Decision Support and Machine Learning from the <a class="link" target="_blank" href="https://www.univ-rennes.fr/en">University of Rennes 1</a> in France, graduating valedictorian with the highest french academic honors. He was a Data Scientist at <a class="link" href="https://www.energiency.com/" target="_blank">Energiency</a> (France), leading the engineering of ML systems for real-time energy optimization in Industry 4.0, and earlier built software engineering expertise across a variety of organizations including <a class="link" href="https://worldline.com/" target="_blank">Worldline</a> and the <a class="link" href="https://portdecotonou.bj/" target="_blank">Port Authority of Cotonou</a>.
 </p>
 
 <h2 class="dark:text-stone-200">Education</h2>
@@ -80,7 +84,7 @@ Henri Aïdasso obtained a Ph.D. in Computer Engineering (Grade: Excellent) from 
     <span class="text-xs font-mono text-stone-400 dark:text-stone-500">2020 – 2022</span>
     <p class="font-bold text-sm md:text-base dark:text-stone-100 mt-0.5 mb-0">M.Sc. in Big Data: Decision Support and Machine Learning</p>
     <p class="text-sm text-stone-500 dark:text-stone-400 mt-0 mb-0"><a class="link" href="https://www.univ-rennes.fr" target="_blank">University of Rennes I</a>, France</p>
-    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · Highest Honors (Mention Très Bien)</p>
+    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · highest honors (mention Très Bien)</p>
   </div>
 
   <div class="relative pl-6">
@@ -88,7 +92,7 @@ Henri Aïdasso obtained a Ph.D. in Computer Engineering (Grade: Excellent) from 
     <span class="text-xs font-mono text-stone-400 dark:text-stone-500">2019 – 2020</span>
     <p class="font-bold text-sm md:text-base dark:text-stone-100 mt-0.5 mb-0">B.Sc. in Computer Science</p>
     <p class="text-sm text-stone-500 dark:text-stone-400 mt-0 mb-0"><a class="link" href="https://www.univ-rennes.fr" target="_blank">University of Rennes I</a>, France</p>
-    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · Highest Honors (Mention Très Bien)</p>
+    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · highest honors (mention Très Bien)</p>
   </div>
 
   <div class="relative pl-6">
@@ -96,7 +100,7 @@ Henri Aïdasso obtained a Ph.D. in Computer Engineering (Grade: Excellent) from 
     <span class="text-xs font-mono text-stone-400 dark:text-stone-500">2014 – 2017</span>
     <p class="font-bold text-sm md:text-base dark:text-stone-100 mt-0.5 mb-0">B.Sc. in Computer Science and Management</p>
     <p class="text-sm text-stone-500 dark:text-stone-400 mt-0 mb-0"><a class="link" href="https://uac.bj/" target="_blank">University of Abomey-Calavi</a>, Benin</p>
-    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · Highest Honors</p>
+    <p class="text-xs text-stone-400 dark:text-stone-500 mt-1 mb-0">Valedictorian · Trophy of Excellence</p>
   </div>
 
 </div>

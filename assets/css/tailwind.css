@@ -718,6 +718,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.75rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .min-h-full{
   min-height: 100%;
 }
@@ -772,6 +776,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-3{
   width: 0.75rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .min-w-0{
@@ -2389,6 +2397,10 @@ body *{
           text-decoration-line: underline;
 }
 
+.hover\:opacity-70:hover{
+  opacity: 0.7;
+}
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2407,6 +2419,11 @@ body *{
 
 .focus\:ring-offset-2:focus{
   --tw-ring-offset-width: 2px;
+}
+
+.group:hover .group-hover\:text-stone-700{
+  --tw-text-opacity: 1;
+  color: rgb(68 64 60 / var(--tw-text-opacity));
 }
 
 .dark .dark\:inline-block{
@@ -2539,6 +2556,11 @@ body *{
 .dark .dark\:hover\:text-stone-300:hover{
   --tw-text-opacity: 1;
   color: rgb(214 211 209 / var(--tw-text-opacity));
+}
+
+.dark .group:hover .dark\:group-hover\:text-stone-200{
+  --tw-text-opacity: 1;
+  color: rgb(231 229 228 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
