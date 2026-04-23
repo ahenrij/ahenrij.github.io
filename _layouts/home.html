@@ -35,13 +35,53 @@ layout: default
     <p class="home-paragraph text-center">
       Hi! I'm Henri Aïdasso, born and raised in Benin, a humble place that taught me the value of adaptability, efficiency, and hard work.
       Over the past decade, I've studied across three continents and worked across a dozen organizations of all sizes: startups, government institutions, research centers, and global corporations.
-      I recently completed a PhD in Computer Engineering, with the grade Excellent, at <a href="https://www.etsmtl.ca/en/" class="link" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec, which I did as a Mitacs Accelerate Fellow at <a href="https://www.telus.com/" class="link" target="_blank">TELUS</a>.
-    
-      My research focuses on AI for software engineering, specifically NLP for anomaly detection and diagnosis in large scale systems and efficient machine learning methods, bridging fundamental research with real-world impact. <br>
-      Read <a class="link" href="/about">more about me</a>.
+      I recently completed a PhD in Computer Engineering, with grade Excellent, at <a href="https://www.etsmtl.ca/en/" class="link" target="_blank">École de technologie supérieure (ÉTS)</a>, University of Quebec. During my PhD, I was also a Mitacs Accelerate Fellow at <a href="https://www.telus.com/" class="link" target="_blank">TELUS</a>.
+
+      My research focuses on the reliability of multi-component automated systems, specifically anomaly detection and diagnosis in software and AI systems using efficient machine learning methods. My work bridges fundamental AI research with real-world impact. <br>
+    </p>
+    <p class="home-paragraph text-center mt-2 mb-8">
+      Read <a class="link" href="/about">more about me</a>
     </p>
   </div>
 
+  <!-- News -->
+  <style>
+    .news-feed a, .news-feed .link { color: #57534e; font-weight: 500; text-decoration: underline; text-decoration-color: #d6d3d1 !important; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.2s ease, text-decoration-color 0.2s ease; }
+    .news-feed a:hover, .news-feed .link:hover { color: #1c1917; text-decoration-color: #a8a29e !important; }
+    .dark .news-feed a, .dark .news-feed .link { color: #d6d3d1; text-decoration-color: #57534e !important; }
+    .dark .news-feed a:hover, .dark .news-feed .link:hover { color: #fafaf9; text-decoration-color: #a8a29e !important; }
+  </style>
+  <div class="max-w-2xl mx-auto mb-8">
+    <h2 class="text-base font-semibold mb-5 text-center tracking-widest uppercase text-stone-600 dark:text-stone-400">Latest News</h2>
+    <div class="news-feed space-y-0">
+      {% assign sorted_news = site.news | sort: "date" | reverse %}
+      {% for item in sorted_news limit:5 %}
+        {% if item.category == "paper" %}{% assign label = "Paper" %}
+        {% elsif item.category == "award" %}{% assign label = "Award" %}
+        {% elsif item.category == "position" %}{% assign label = "Position" %}
+        {% elsif item.category == "talk" %}{% assign label = "Talk" %}
+        {% elsif item.category == "tool" %}{% assign label = "Tool" %}
+        {% else %}{% assign label = "News" %}{% endif %}
+        <div class="flex gap-4 py-4" style="border-bottom: 1px solid rgba(120,113,108,0.12);">
+          <div class="pt-1 shrink-0 text-stone-700 dark:text-stone-200">
+            {% include news-icon.html category=item.category %}
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-200">{{ label }}</span>
+              <span class="text-xs font-mono text-stone-300 dark:text-stone-600">{{ item.date | date: "%b %Y" }}</span>
+            </div>
+            <div class="text-base dark:text-stone-300 text-stone-600 mb-0 leading-relaxed">{{ item.content }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% if site.news.size > 3 %}
+    <p class="home-paragraph text-center mt-4">
+      See <a href="/news" class="link">all news</a>
+    </p>
+    {% endif %}
+  </div>
 
 </div>
 
@@ -56,15 +96,13 @@ layout: default
     const PAUSE = 2000;
     var typewriter = new Typewriter(typing, { loop: true, delay: 100 });
     typewriter
-      .typeString('Applied Research Scientist')
+      .typeString('Research Scientist')
       .pauseFor(PAUSE).deleteAll()
-      .typeString('Natural Language Processing')
-      .pauseFor(PAUSE).deleteAll()
-      .typeString('Efficient Learning Methods')
-      .pauseFor(PAUSE).deleteAll()
-      .typeString('Reliability Engineering')
+      .typeString('Multi-Component System Reliability')
       .pauseFor(PAUSE).deleteAll()
       .typeString('AI for Software Engineering')
+      .pauseFor(PAUSE).deleteAll()
+      .typeString('Low-Resource NLP')
       .pauseFor(PAUSE).deleteAll()
       .start();
   }
