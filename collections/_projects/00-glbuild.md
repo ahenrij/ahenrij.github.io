@@ -1,6 +1,7 @@
 ---
 title: "GlBuild"
-description: "Efficient build data collection tool with failure recovery"
+image: "glbuild.jpg"
+description: "Collecting Large Scale CI/CD Pipeline Data Efficiently"
 authors: Henri Aïdasso
 year: 2025
 links:

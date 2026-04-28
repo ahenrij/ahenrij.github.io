@@ -638,8 +638,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
-.\!mt-0\.5{
-  margin-top: 0.125rem !important;
+.\!mb-1{
+  margin-bottom: 0.25rem !important;
+}
+
+.-ml-1{
+  margin-left: -0.25rem;
 }
 
 .mt-8{
@@ -650,8 +654,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -0.25rem;
 }
 
+.\!mt-0\.5{
+  margin-top: 0.125rem !important;
+}
+
 .\!mt-2{
   margin-top: 0.5rem !important;
+}
+
+.\!-mt-0{
+  margin-top: -0px !important;
+}
+
+.\!-mt-1{
+  margin-top: -0.25rem !important;
 }
 
 .block{
@@ -712,6 +728,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-3{
   height: 0.75rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .min-h-full{
@@ -867,6 +887,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .space-x-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
@@ -1007,10 +1031,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
-.p-5{
-  padding: 1.25rem;
-}
-
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1069,6 +1089,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-4{
@@ -1192,10 +1217,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .uppercase{
   text-transform: uppercase;
-}
-
-.italic{
-  font-style: italic;
 }
 
 .leading-relaxed{
@@ -2220,15 +2241,40 @@ body *{
 }
 
 .theme-link-pill:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .dark .theme-link-pill:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(141 221 141 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+  background-color: rgb(141 221 141 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(232 232 232 / var(--tw-text-opacity));
+  color: rgb(19 19 19 / var(--tw-text-opacity));
+}
+
+.theme-link-pill, .theme-link-pill * {
+  transition-duration: 150ms !important;
+}
+
+.dark .project-card{
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
+}
+
+.project-img-bg {
+  height: 220px;
+  overflow: hidden;
+  background-color: #f5f5f4;
+}
+
+.dark .project-img-bg {
+  background-color: #2a2a2a;
 }
 
 /* ── Social buttons ───────────────────────── */
@@ -2576,10 +2622,6 @@ body *{
     place-items: center;
   }
 
-  .md\:gap-6{
-    gap: 1.5rem;
-  }
-
   .md\:space-y-6 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2613,11 +2655,6 @@ body *{
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:\!text-lg{
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
   }
 
   .md\:\!text-xl{

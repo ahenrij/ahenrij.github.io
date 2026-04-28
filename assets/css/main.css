@@ -138,7 +138,23 @@
     @apply dark:bg-dark-highlight dark:border-dark-border dark:text-dark-text;
   }
   .theme-link-pill:hover {
-    @apply bg-stone-100 dark:bg-dark-border dark:text-dark-text;
+    @apply bg-green-600 text-white border-green-600;
+    @apply dark:bg-dark-accent dark:text-dark-bg dark:border-dark-accent;
+  }
+  .theme-link-pill, .theme-link-pill * {
+    transition-duration: 150ms !important;
+  }
+
+  .project-card {
+    @apply dark:bg-dark-surface;
+  }
+  .project-img-bg {
+    height: 220px;
+    overflow: hidden;
+    background-color: #f5f5f4;
+  }
+  .dark .project-img-bg {
+    background-color: #2a2a2a;
   }
 
   /* ── Social buttons ───────────────────────── */
