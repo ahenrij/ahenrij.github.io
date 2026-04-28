@@ -638,6 +638,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.\!-mt-1{
+  margin-top: -0.25rem !important;
+}
+
 .\!mb-1{
   margin-bottom: 0.25rem !important;
 }
@@ -660,14 +664,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .\!mt-2{
   margin-top: 0.5rem !important;
-}
-
-.\!-mt-0{
-  margin-top: -0px !important;
-}
-
-.\!-mt-1{
-  margin-top: -0.25rem !important;
 }
 
 .block{
@@ -2275,6 +2271,14 @@ body *{
 
 .dark .project-img-bg {
   background-color: #2a2a2a;
+}
+
+.project-img-overlay {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.dark .project-img-overlay {
+  background: rgba(0, 0, 0, 0.25);
 }
 
 /* ── Social buttons ───────────────────────── */

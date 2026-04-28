@@ -15,7 +15,7 @@ permalink: projects
                  alt="{{ project.title }}"
                  class="w-full h-full object-cover block !my-0"
                  onerror="this.style.display='none'">
-            <div class="absolute inset-0" style="background:rgba(0, 0, 0, 0.05);"></div>
+            <div class="absolute inset-0 project-img-overlay"></div>
             {% endif %}
         </div>
         <!-- Content -->
