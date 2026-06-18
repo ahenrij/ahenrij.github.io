@@ -6,6 +6,6 @@ date: 2025-09-22
 links:
     - name: "arxiv.org"
       url: https://arxiv.org/abs/2510.01220
-    - name: "aclanthology.org"
-      url: https://aclanthology.org/2025.uncertainlp-main.24
+    - name: "doi.org"
+      url: https://doi.org/10.18653/v1/2025.uncertainlp-main.24
 ---

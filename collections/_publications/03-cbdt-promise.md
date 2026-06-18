@@ -7,5 +7,5 @@ links:
     - name: "arxiv.org"
       url: https://arxiv.org/abs/2503.19381
     - name: "doi.org"
-      url: https://dl.acm.org/doi/10.1145/3727582.3728684
+      url: https://doi.org/10.1145/3727582.3728684
 ---

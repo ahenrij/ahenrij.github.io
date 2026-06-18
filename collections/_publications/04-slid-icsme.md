@@ -7,5 +7,5 @@ links:
     - name: "arxiv.org"
       url: https://arxiv.org/abs/2507.04173
     - name: "doi.org"
-      url: https://ieeexplore.ieee.org/document/11185937
+      url: https://doi.org/10.1109/ICSME64153.2025.00064
 ---
